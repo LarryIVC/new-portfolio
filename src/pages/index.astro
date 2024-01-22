@@ -1,15 +1,27 @@
 ---
-import Layout from "../layouts/Layout.astro"
-import Logo from "../components/Logo.astro"
-import Button from "../components/Button.astro"
-import Tag from "../components/Tag.astro"
+import Layout from "@layouts/Layout.astro"
+import Logo from "@components/Logo.astro"
+import Button from "@components/Button.astro"
+import Tag from "@components/Tag.astro"
+import Medium from "@icons/Medium.astro"
+import Wellfound from "@icons/Wellfound.astro"
+import Twitter from "@icons/Twitter.astro"
+import MobileIcon from "@icons/MobileIcon.astro"
+import Close from "@icons/Close.astro"
+import LVIcon from "@icons/LVIcon.astro"
 ---
 
 <Layout title="Welcome to Astro.">
   <main>
-    <Logo class="size-24" />
+    <Logo class="size-12" />
     <Button>Get Started</Button>
     <Tag>JavaScript</Tag>
+    <Medium class="size-12 bg-white rounded-full" />
+    <Wellfound class="size-12 text-white" />
+    <Twitter class="size-12 text-white" />
+    <MobileIcon class="size-12 text-white" />
+    <Close class="size-12 text-white" />
+    <LVIcon class="size-12 text-white bg-white" />
   </main>
 </Layout>
 

@@ -1,3 +1,7 @@
-<span class="rounded-lg px-3 py-1 bg-indigo-100 text-indigo-600 text-xs">
+<span
+  class={`rounded-lg px-3 py-1 bg-indigo-100 text-indigo-600 ${
+    Astro.props.class || "text-xs"
+  } `}
+>
   <slot />
 </span>

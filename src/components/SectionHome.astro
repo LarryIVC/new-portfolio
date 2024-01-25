@@ -1,3 +1,26 @@
-<section>
-  
+---
+import SocialNav from "./SocialNav.astro"
+import Tag from "./Tag.astro"
+---
+
+<section
+  id="home"
+  class="w-full min-h-[480px] bg-no-repeat bg-[url('/bg-header-big-dark.webp')] bg-cover rounded-bl-[100px] bg-gray-800 flex justify-center items-center"
+>
+  <article class="max-w-[540px]">
+    <h1
+      class="font-bold text-5xl leading-[60px] tracking-wide
+    bg-clip-text text-transparent bg-gradient-to-r from-white to-indigo-900"
+    >
+      Hello!<br />I'm Larry Villegas
+    </h1>
+    <p class="text-pretty text-2xl">
+      A <Tag class="text-xl px-0">Full-Stack Web Developer</Tag>, based in Bolivia
+      who enjoys tackling challenges. I invite you to take a look at the
+      projects I've developed, and I'd love the opportunity to bring your
+      project to life as well.
+    </p>
+    <p class="text-indigo-400 pt-3 leading-6">LET'S CONNECT</p>
+    <SocialNav />
+  </article>
 </section>

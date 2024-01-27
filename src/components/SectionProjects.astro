@@ -1,0 +1,148 @@
+---
+import ProjectCard from "./ProjectCard.astro"
+
+const TECH = {
+  html: "HTML",
+  css: "CSS",
+  javaScript: "JavaScript",
+  react: "React",
+  redux: "Redux",
+  ruby: "Ruby",
+  rails: "Ruby on rails",
+  postgres: "PostgreSQL",
+  erb: "erb",
+  astro: "Astro",
+  tailwind: "Tailwind",
+  jest: "Jest",
+  webpack: "Webpack",
+  json: "JSON",
+}
+
+const STACK = {
+  front: "Front End Dev",
+  back: "Back End Dev",
+  full: "Full Stack Dev",
+}
+
+const PROJECTS = [
+  {
+    title: "Fast Land Racers",
+    description:
+      "Fast-Lane-Racer is a car booking website that enables users to effortlessly book rides and travel to their desired destinations. Users can reserve a car from the available options by providing the date and city, ensuring a seamless and reliable car booking experience.",
+    smallDescription:
+      "It's a car booking website that enables users to effortlessly book rides and travel to their desired destinations.",
+    image: "image/mock-racer.webp",
+    technologies: [
+      TECH.html,
+      TECH.rails,
+      TECH.css,
+      TECH.javaScript,
+      TECH.postgres,
+      TECH.react,
+      TECH.redux,
+    ],
+    url: "https://shiny-longma-bba6fb.netlify.app",
+    linkCode: "https://github.com/LarryIVC/Fast-Lane-Racers-front-end",
+    enterprise: "Microverse",
+    stack: STACK.full,
+    year: "2023",
+  },
+  {
+    name: "Tesla Clone",
+    description:
+      "Tesla Clone is a replica of the Tesla website. It is a static website built using Astro, Tailwind.",
+    smalldesc: "Tesla Clone is a replica of the Tesla website.",
+    image: "image/tesla-landing.webp",
+    technologies: [
+      TECH.html,
+      TECH.css,
+      TECH.javaScript,
+      TECH.astro,
+      TECH.tailwind,
+    ],
+    linkLive: "https://tesla-clon-larry.netlify.app/",
+    linkCode: "https://github.com/LarryIVC/astro-landing",
+    enterprise: "Tesla",
+    stack: STACK.front,
+    year: "2023",
+  },
+  {
+    name: "Pennywise",
+    description:
+      "Pennywise: Simplify your finances. Track expenses, set budgets, gain insights, and make informed decisions for financial freedom. Get started today!",
+    smalldesc: "Manage your finances with ease: expenses and budgets.",
+    image: "image/pennywise.webp",
+    technologies: [
+      TECH.erb,
+      TECH.css,
+      TECH.javaScript,
+      TECH.ruby,
+      TECH.rails,
+      TECH.postgres,
+    ],
+    linkLive: "https://rails-lb6q.onrender.com/",
+    linkCode: "https://github.com/LarryIVC/pennywise",
+    enterprise: "Microverse",
+    stack: STACK.back,
+    year: "2023",
+  },
+  {
+    name: "Crypto Coinranking",
+    description:
+      "It's a powerful web application designed specifically for cryptocurrencies. Leveraging the capabilities of React and Redux, it offers comprehensive information about various digital coins.",
+    smalldesc:
+      "It's a powerful web application designed specifically for cryptocurrencies.",
+    image: "image/cryptomock.png",
+    technologies: [
+      TECH.html,
+      TECH.css,
+      TECH.javaScript,
+      TECH.react,
+      TECH.redux,
+    ],
+    linkLive: "https://react-coin-coinranking.netlify.app/",
+    linkCode: "https://github.com/LarryIVC/react-coins",
+    enterprise: "Microverse",
+    stack: STACK.front,
+    year: "2023",
+  },
+  {
+    name: "The Simpsons Fans Club",
+    description:
+      "This project showcases my proficiency in JavaScript, Webpack, and Jest, along with my skills in working with JSON for reading and writing APIs.",
+    smalldesc:
+      "This project showcases my proficiency in JavaScript, Webpack, and Jest, as well as my capability in working with JSON for reading and writing APIs.",
+    image: "image/simpmock.jpeg",
+    technologies: [
+      TECH.html,
+      TECH.css,
+      TECH.javaScript,
+      TECH.webpack,
+      TECH.jest,
+    ],
+    linkLive: "https://js-capstoneproject.netlify.app/",
+    linkCode: "https://github.com/LarryIVC/portfolio",
+    enterprise: "Microverse",
+    stack: STACK.front,
+    year: "2023",
+  },
+  {
+    name: "Catholic Music Concert",
+    description:
+      "A landing page specifically created to promote a Catholic concert. The design is intuitive and user-friendly, enabling visitors to access essential concert details such as date, time, venue, and artists quickly and easily.",
+    smalldesc:
+      "A landing page designed exclusively for the promotion of a Catholic concert.",
+    image: "image/event.webp",
+    technologies: [TECH.html, TECH.css, TECH.javaScript],
+    linkLive: "https://larryivc.github.io/EventPage/",
+    linkCode: "https://github.com/LarryIVC/EventPage",
+    enterprise: "Microverse",
+    stack: STACK.front,
+    year: "2023",
+  },
+]
+---
+
+<section class="flex flex-col gap-12" id="projects">
+  {PROJECTS.map((project) => <ProjectCard {...project} key={project.title} />)}
+</section>

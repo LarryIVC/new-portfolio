@@ -1,8 +1,10 @@
-<button
-  class="rounded-lg p-3 border-2 border-solid border-indigo-600 shadow-lg shadow-indigo-500/50 text-2xl text-indigo-600
-    hover:bg-indigo-600 hover:text-white
-    active:bg-blue-700
-    disabled:text-gray-600 disabled:border-gray-600 hover:disabled:bg-transparent"
->
-  <slot />
-</button>
+<article class={Astro.props.class}>
+  <button
+    class="rounded-lg p-3 border-2 border-solid border-indigo-600 shadow-lg shadow-indigo-500/50 text-2xl text-indigo-600
+      hover:bg-indigo-600 hover:text-white
+      active:bg-blue-700
+      disabled:text-gray-600 disabled:border-gray-600 hover:disabled:bg-transparent"
+  >
+    <slot />
+  </button>
+</article>

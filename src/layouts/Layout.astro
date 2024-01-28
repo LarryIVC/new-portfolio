@@ -19,7 +19,7 @@ const { title } = Astro.props
     <title>{title}</title>
   </head>
   <body class="relative text-white/90">
-    <div
+    <div id="home"
       class="absolute top-0 bottom-0 z-[-2] h-full w-full bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px] bg-repeat"
     >
     </div>
@@ -32,7 +32,17 @@ const { title } = Astro.props
     /* color-scheme: light dark; */
   }
 
+  body {
+  }
+  
   html {
-    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;    
+  }
+
+  @media (prefers-reduce-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
   }
 </style>

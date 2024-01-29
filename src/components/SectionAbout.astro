@@ -1,0 +1,49 @@
+---
+import Button from "./Button.astro"
+import SocialNav from "./SocialNav.astro"
+import JavaScript from "@/icons/JavaScript.astro"
+---
+
+<section id="about" class="w-full rounded-tr-[100px] bg-slate-900">
+  <article class="flex gap-12 mx-auto my-0 max-w-[1156px] pt-40 min-h-80">
+    <article class="w-[50%]">
+      <h2 class="text-4xl font-bold leading-[52px] text-indigo-200 mb-3">
+        About Myself
+      </h2>
+      <p class="leading-6 text-pretty mb-3">
+        I am a passionate web development enthusiast, a proud husband, and the
+        father of three beautiful children. I dedicate my free time to playing
+        music with my guitar.
+      </p>
+      <p class="text-indigo-400 font-medium pt-5 pb-3 mb-6 leading-6">
+        LET'S CONNECT
+      </p>
+      <SocialNav />
+      <Button class="mt-8">Get my resume</Button>
+    </article>
+    <article
+      class="w-[50%] [&>details>summary]:text-xl [&>details>summary]:font-medium [&>details>summary]:leading-6 [&>details>summary]:mb-6 text-indigo-200"
+    >
+      <details name="skills" open>
+        <summary>Languages</summary>
+        <article class="grid grid-cols-3 gap-3 mb-3">
+          <article
+            class="p-3 bg-blue-800 w-[122px] h-[120px] rounded border-2 border-indigo-500 shadow-sm shadow-indigo-300"
+          >
+            <JavaScript class="size-12 rounded-full" />
+            <p class="mt-4 font-medium leading-5">JavaScript</p>
+          </article>
+        </article>
+      </details>
+      <hr />
+      <details name="skills">
+        <summary>Frameworks</summary>
+      </details>
+      <hr />
+      <details name="skills">
+        <summary>Skills</summary>
+      </details>
+      <hr />
+    </article>
+  </article>
+</section>

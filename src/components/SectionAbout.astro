@@ -1,7 +1,28 @@
 ---
 import Button from "./Button.astro"
+import SkillsCard from "./SkillsCard.astro"
 import SocialNav from "./SocialNav.astro"
 import JavaScript from "@/icons/JavaScript.astro"
+import Html from "@/icons/Html.astro"
+import Css from "@/icons/Css.astro"
+import Ruby from "@/icons/Ruby.astro"
+import VisualBasic from "@/icons/VisualBasic.astro"
+import Postgress from "@/icons/Postgress.astro"
+import Bootstrap from "@/icons/Bootstrap.astro"
+import Npm from "@/icons/Npm.astro"
+import Nodejs from "@/icons/Nodejs.astro"
+import Rails from "@/icons/Rails.astro"
+import Reactjs from "@/icons/Reactjs.astro"
+import ReactRouter from "@/icons/ReactRouter.astro"
+import Redux from "@/icons/Redux.astro"
+import Tailwind from "@/icons/Tailwind.astro"
+import Vite from "@/icons/Vite.astro"
+import Webpack from "@/icons/Webpack.astro"
+import Figma from "@/icons/Figma.astro"
+import Apache from "@/icons/Apache.astro"
+import Git from "@/icons/Git.astro"
+import Github from "@/icons/Github.astro"
+import Jest from "@/icons/Jest.astro"
 ---
 
 <section id="about" class="w-full rounded-tr-[100px] bg-slate-900">
@@ -22,28 +43,109 @@ import JavaScript from "@/icons/JavaScript.astro"
       <Button class="mt-8">Get my resume</Button>
     </article>
     <article
-      class="w-[50%] [&>details>summary]:text-xl [&>details>summary]:font-medium [&>details>summary]:leading-6 [&>details>summary]:mb-6 text-indigo-200"
+      class="w-[50%] [&>details>summary]:text-xl [&>details>summary]:font-medium [&>details>summary]:leading-6 [&>details>summary]:mb-6 text-indigo-200 [&>details]:border-b-2 [&>details]:mb-6 [&>details]:border-indigo-800 [&>details>summary]:after:content-['▼'] [&>details>summary]:after:absolute [&>details>summary]:after:right-2 [&>details>summary]:list-none"
     >
       <details name="skills" open>
         <summary>Languages</summary>
-        <article class="grid grid-cols-3 gap-3 mb-3">
-          <article
-            class="p-3 bg-blue-800 w-[122px] h-[120px] rounded border-2 border-indigo-500 shadow-sm shadow-indigo-300"
-          >
-            <JavaScript class="size-12 rounded-full" />
-            <p class="mt-4 font-medium leading-5">JavaScript</p>
-          </article>
+        <article class="grid grid-cols-3 gap-3 mb-6">
+          <SkillsCard>
+            <JavaScript class="size-12 rounded-full" slot="icon" />
+            JavaScript
+          </SkillsCard>
+          <SkillsCard>
+            <Html class="size-12 rounded-full" slot="icon" />
+            HTML
+          </SkillsCard>
+          <SkillsCard>
+            <Css class="size-12 rounded-full" slot="icon" />
+            CSS
+          </SkillsCard>
+          <SkillsCard>
+            <Ruby class="size-12 rounded-full" slot="icon" />
+            Ruby
+          </SkillsCard>
+          <SkillsCard>
+            <VisualBasic class="size-12 rounded-full" slot="icon" />
+            Visual Basic
+          </SkillsCard>
+          <SkillsCard>
+            <Postgress class="size-12 rounded-full" slot="icon" />
+            Postgress
+          </SkillsCard>
         </article>
       </details>
-      <hr />
+
       <details name="skills">
         <summary>Frameworks</summary>
+        <article class="grid grid-cols-3 gap-3 mb-6">
+          <SkillsCard>
+            <Bootstrap class="size-12 rounded-full" slot="icon" />
+            Bootstrap
+          </SkillsCard>
+          <SkillsCard>
+            <Npm class="size-12 rounded-full" slot="icon" />
+            Npm
+          </SkillsCard>
+          <SkillsCard>
+            <Nodejs class="size-12 rounded-full" slot="icon" />
+            Nodejs
+          </SkillsCard>
+          <SkillsCard>
+            <Rails class="size-12 rounded-full" slot="icon" />
+            Ruby on Rails
+          </SkillsCard>
+          <SkillsCard>
+            <Reactjs class="size-12 rounded-full" slot="icon" />
+            Reactjs
+          </SkillsCard>
+          <SkillsCard>
+            <ReactRouter class="size-12 rounded-full" slot="icon" />
+            React Router
+          </SkillsCard>
+          <SkillsCard>
+            <Redux class="size-12 rounded-full" slot="icon" />
+            Redux
+          </SkillsCard>
+          <SkillsCard>
+            <Tailwind class="size-12 rounded-full" slot="icon" />
+            Tailwind
+          </SkillsCard>
+          <SkillsCard>
+            <Vite class="size-12 rounded-full" slot="icon" />
+            Vite
+          </SkillsCard>
+          <SkillsCard>
+            <Webpack class="size-12 rounded-full" slot="icon" />
+            Webpack
+          </SkillsCard>
+        </article>
       </details>
-      <hr />
+
       <details name="skills">
         <summary>Skills</summary>
+        <article class="grid grid-cols-3 gap-3 mb-6">
+          <SkillsCard>
+            <Figma class="size-12 rounded-full" slot="icon" />
+            Figma
+          </SkillsCard>
+          <SkillsCard>
+            <Apache class="size-12 rounded-full" slot="icon" />
+            Apache
+          </SkillsCard>
+          <SkillsCard>
+            <Git class="size-12 rounded-full" slot="icon" />
+            Git
+          </SkillsCard>
+          <SkillsCard>
+            <Github class="size-12 rounded-full" slot="icon" />
+            Github
+          </SkillsCard>
+          <SkillsCard>
+            <Jest class="size-12 rounded-full" slot="icon" />
+            Jest
+          </SkillsCard>
+        </article>
       </details>
-      <hr />
     </article>
   </article>
 </section>

@@ -1,7 +1,7 @@
 ---
-import Button from "./Button.astro"
-import SkillsCard from "./SkillsCard.astro"
-import SocialNav from "./SocialNav.astro"
+import Button from "@/components/Button.astro"
+import SkillsCard from "@/components/SkillsCard.astro"
+import SocialNav from "@/components/SocialNav.astro"
 import JavaScript from "@/icons/JavaScript.astro"
 import Html from "@/icons/Html.astro"
 import Css from "@/icons/Css.astro"
@@ -26,7 +26,7 @@ import Jest from "@/icons/Jest.astro"
 ---
 
 <section id="about" class="w-full rounded-tr-[100px] bg-slate-900">
-  <article class="flex gap-12 mx-auto my-0 max-w-[1156px] pt-40 min-h-80">
+  <article class="relative flex gap-12 mx-auto my-0 max-w-[1156px] pt-40 min-h-80">
     <article class="w-[50%]">
       <h2 class="text-4xl font-bold leading-[52px] text-indigo-200 mb-3">
         About Myself
@@ -43,7 +43,7 @@ import Jest from "@/icons/Jest.astro"
       <Button class="mt-8">Get my resume</Button>
     </article>
     <article
-      class="w-[50%] [&>details>summary]:text-xl [&>details>summary]:font-medium [&>details>summary]:leading-6 [&>details>summary]:mb-6 text-indigo-200 [&>details]:border-b-2 [&>details]:mb-6 [&>details]:border-indigo-800 [&>details>summary]:after:content-['▼'] [&>details>summary]:after:absolute [&>details>summary]:after:right-2 [&>details>summary]:list-none"
+      class="w-[50%] [&>details>summary]:text-xl [&>details>summary]:font-medium [&>details>summary]:leading-6 [&>details>summary]:mb-6 text-indigo-200 [&>details]:border-b-2 [&>details]:mb-6 [&>details]:border-indigo-800 [&>details>summary]:after:content-['▼'] [&>details>summary]:after:absolute [&>details>summary]:after:right-0 [&>details>summary]:list-none"
     >
       <details name="skills" open>
         <summary>Languages</summary>

@@ -1,5 +1,6 @@
 ---
 import SectionAbout from "@/components/SectionAbout.astro"
+import SectionContact from "@/components/SectionContact.astro"
 import SectionHome from "@/components/SectionHome.astro"
 import SectionProjects from "@/components/SectionProjects.astro"
 import Layout from "@/layouts/Layout.astro"
@@ -9,6 +10,9 @@ import Layout from "@/layouts/Layout.astro"
   <main class="flex flex-col gap-36">
     <SectionHome />
     <SectionProjects />
-    <SectionAbout />
+    <section>
+      <SectionAbout />
+      <SectionContact />
+    </section>
   </main>
 </Layout>

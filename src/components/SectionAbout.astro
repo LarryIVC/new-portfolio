@@ -48,11 +48,21 @@ import Jest from "@/icons/Jest.astro"
         target="_blank"
         aria-label="Get my resume"
         rel="nooppener noreferrer"
-        ><Button class="mt-8">Get my resume</Button></a
+        >
+        <div class="mt-8"></div>
+        <Button >Get my resume</Button></a
       >
     </article>
     <article
-      class="w-[50%] [&>details>summary]:text-xl [&>details>summary]:font-medium [&>details>summary]:leading-6 [&>details>summary]:mb-6 text-indigo-200 [&>details]:border-b-2 [&>details]:mb-6 [&>details]:border-indigo-800 [&>details>summary]:after:content-['🔽'] [&>details>summary]:after:absolute [&>details>summary]:after:right-0 [&>details>summary]:list-none"
+      class="w-[50%] text-indigo-200
+      [&>details>summary]:text-xl [&>details>summary]:font-medium [&>details>summary]:leading-6 [&>details>summary]:overflow-hidden
+      [&>details>summary]:mb-6 [&>details>summary]:list-none [&>details>summary]:relative
+      [&>details]:border-b-2 [&>details]:mb-6
+      [&>details]:border-indigo-800
+      [&>details>summary]:after:content-['']
+      [&>details>summary]:after:size-0 [&>details>summary]:after:border-t-[1rem] [&>details>summary]:after:border-l-[1rem] [&>details>summary]:after:border-r-[1rem] [&>details>summary]:after:border-l-transparent [&>details>summary]:after:border-r-transparent [&>details>summary]:after:border-indigo-500 [&>details>summary]:after:border-b-0
+      [&>details[open]>summary]:after:size-0 [&>details[open]>summary]:after:border-b-[1rem] [&>details[open]>summary]:after:border-t-0 [&>details[open]>summary]:after:border-l-[1rem] [&>details[open]>summary]:after:border-r-[1rem] [&>details[open]>summary]:after:border-l-transparent [&>details[open]>summary]:after:border-r-transparent
+      [&>details>summary]:after:absolute [&>details>summary]:after:right-1"
     >
       <details name="skills" open>
         <summary>Languages</summary>

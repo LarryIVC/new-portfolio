@@ -47,22 +47,21 @@ const {
     <article class="flex gap-2 flex-wrap">
       {technologies.map((technology) => <Tag>{technology}</Tag>)}
     </article>
-    <Button class="see mt-4">See project</Button>
+    <div class="mt-4 see">
+      <Button>See project</Button>
+    </div>
   </article>
 </article>
-<dialog id="project" class="w-full h-full bg-black/30 backdrop-sepia p-0 m-0">
-  <button id="close" class="p-10 bg-slate-50 text-black mx-auto my-0"
+
+<dialog
+  id="project"
+  class="w-full h-full bg-black/30 backdrop-sepia p-0 m-0 border-lime-300"
+>
+  <button id="close" class="px-2 py-1 bg-slate-50 text-black mx-auto my-0"
     >close</button
   >
 </dialog>
 
-<!-- <script>
-  const btnclose = document.getElementById("close")
-  const dlgProject = document.getElementById("project")
-  btnclose.addEventListener("click", function () {
-    dlgProject.close()
-  })
-</script> -->
 <script>
   const btnSee = document.querySelectorAll(".see")
   const dlgProject = document.getElementById("project")
@@ -73,5 +72,11 @@ const {
       console.log(dlgProjectModal)
       dlgProjectModal.showModal()
     })
+  })
+
+  const btnclose = document.getElementById("close")
+  btnclose.addEventListener("click", function () {
+    const dlgProjectModal = dlgProject as HTMLDialogElement
+    dlgProjectModal.close()
   })
 </script>

@@ -4,8 +4,10 @@ import Tag from "./Tag.astro"
 ---
 
 <section class="w-full bg-slate-900" id="contact">
-  <article class="rounded-tl-[100px] bg-[#5c00d2] text-slate-900 align-middle
-  bg-no-repeat bg-[url('/backgrounds/bg-contact-form-big.webp')] bg-cover">
+  <article
+    class="rounded-tl-[100px] bg-[#5c00d2] text-slate-900 align-middle
+  bg-no-repeat bg-[url('/backgrounds/bg-contact-form-big.webp')] bg-cover"
+  >
     <article
       class="flex flex-col gap-3 content-center items-center max-w-[801px] mx-auto my-0 pt-32 pb-32 text-white"
     >
@@ -13,14 +15,17 @@ import Tag from "./Tag.astro"
       <p class="text-pretty max-w-[569px] text-center text-xl leading-7">
         Undoubtedly, you have a fantastic idea that you'd like to transform into
         an application. I'd be delighted to assist you. Please feel free to
-        contact me by leaving a message or sending an <Tag class="bg-indigo-900">
+        contact me by leaving a message or sending an <Tag
+          class="bg-indigo-900"
+        >
           <a href="mailto:larry_villegas@hotmail.com">email 📧</a>
         </Tag>.
       </p>
       <form
+        method="POST"
         action="https://formspree.io/f/mnqyvdqr"
         class="flex flex-col gap-6 content-center items-center
-        [&>label>input]:w-[447px] [&>label>input]:p-4 [&>label>input]:border-gray-400 [&>label>input]:text-lg [&>label>input]:leading-5"
+        [&>label>input]:w-[447px] [&>label>input]:p-4 [&>label>input]:border-gray-400 [&>label>input]:text-lg [&>label>input]:leading-5 text-gray-700"
       >
         <label>
           <input type="text" name="name" placeholder="Your name" required />
@@ -42,7 +47,9 @@ import Tag from "./Tag.astro"
             cols="30"
             rows="10"></textarea>
         </label>
-        <Button class="bg-white rounded-lg" type="submit">Get in touch</Button>
+        <div class="bg-white rounded-lg border">
+          <Button type="submit">Get in touch</Button>
+        </div>
       </form>
     </article>
   </article>

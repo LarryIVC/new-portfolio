@@ -7,10 +7,32 @@ import LogoFace from "@/icons/LogoFace.astro"
 >
   <LogoFace />
   <nav>
-    <ul class="flex gap-4">
+    <ul class="flex gap-4 menu-list">
       <li><a href="#projects">Projects</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 </header>
+<style>
+  .menu-list li a {
+    padding: 5px 10px 5px 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  .menu-list li a:hover {
+    /* padding: 5px 10px 5px 10px; */
+    border-radius: 5px;
+    animation: bordes 0.3s ease-in forwards;
+  }
+
+  @keyframes bordes {
+    0% {
+      border-bottom: 1px solid white;
+      border-right: none;
+    }
+    100% {
+      border-right: 1px solid white;
+      border-bottom: 1px solid white;
+    }
+  }
+</style>

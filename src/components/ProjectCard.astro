@@ -15,6 +15,8 @@ export interface Project {
   year: string
 }
 
+const PROJECT = Astro.props as Project
+
 const {
   title,
   description,
@@ -26,7 +28,7 @@ const {
   enterprise,
   stack,
   year,
-} = Astro.props
+} = PROJECT
 ---
 
 <article
@@ -62,21 +64,34 @@ const {
   >
 </dialog>
 
-<script>
+<script
+  define:vars={{
+    title,
+    description,
+    smallDescription,
+    image,
+    technologies,
+    url,
+    github,
+    enterprise,
+    stack,
+    year,
+  }}
+>
   const btnSee = document.querySelectorAll(".see")
   const dlgProject = document.getElementById("project")
 
   btnSee.forEach((btn, key) => {
     btn.addEventListener("click", () => {
-      const dlgProjectModal = dlgProject as HTMLDialogElement
-      console.log(dlgProjectModal)
-      dlgProjectModal.showModal()
+      // const dlgProjectModal = dlgProject as HTMLDialogElement
+      console.log(title, key)
+      dlgProject.showModal()
     })
   })
 
   const btnclose = document.getElementById("close")
   btnclose.addEventListener("click", function () {
-    const dlgProjectModal = dlgProject as HTMLDialogElement
-    dlgProjectModal.close()
+    // const dlgProjectModal = dlgProject as HTMLDialogElement
+    dlgProject.close()
   })
 </script>

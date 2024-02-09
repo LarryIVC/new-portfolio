@@ -1,6 +1,8 @@
 ---
+import Live from "@/icons/Live.astro"
 import Button from "./Button.astro"
 import Tag from "./Tag.astro"
+import Github from "@/icons/Github.astro"
 
 export interface Project {
   title: string
@@ -34,7 +36,9 @@ const {
 <article
   class="flex w-[1156px] bg-slate-900 rounded-xl p-6 gap-11 border border-indigo-800 shadow-indigo-400 shadow-inner"
 >
-  <img src={image} alt={title} class="w-[50%] rounded-xl" loading="lazy" />
+  <picture class="w-[50%] rounded-xl overflow-hidden">
+    <img src={image} alt={title} loading="lazy" class="transition-all hover:scale-150" />
+  </picture>
   <article class="flex flex-col w-[50%] leading-6 gap-6">
     <h2 class="text-4xl font-bold">{title}</h2>
     <article class="flex leading-6 content-center">
@@ -49,8 +53,27 @@ const {
     <article class="flex gap-2 flex-wrap">
       {technologies.map((technology) => <Tag>{technology}</Tag>)}
     </article>
-    <div class="mt-4 see">
-      <Button>See project</Button>
+    <div class="mt-4 flex gap-x-3">
+      <Button>
+        <div class="flex w-full h-full justify-center items-center gap-x-1">
+          <a
+            href={url}
+            target="_blank"
+            aria-label={`See Live ${title}`}
+            rel="nooppener noreferrer">See Live</a
+          ><Live />
+        </div>
+      </Button>
+      <Button>
+        <div class="flex w-full h-full justify-center items-center gap-x-1">
+          <a
+            href={github}
+            target="_blank"
+            aria-label={`See source ${title}`}
+            rel="nooppener noreferrer">See source</a
+          ><Github class="size-6" />
+        </div>
+      </Button>
     </div>
   </article>
 </article>
@@ -64,7 +87,7 @@ const {
   >
 </dialog>
 
-<script
+<!-- <script
   define:vars={{
     title,
     description,
@@ -94,4 +117,4 @@ const {
     // const dlgProjectModal = dlgProject as HTMLDialogElement
     dlgProject.close()
   })
-</script>
+</script> -->

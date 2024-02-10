@@ -37,7 +37,12 @@ const {
   class="flex w-[1156px] bg-slate-900 rounded-xl p-6 gap-11 border border-indigo-800 shadow-indigo-400 shadow-inner"
 >
   <picture class="w-[50%] rounded-xl overflow-hidden">
-    <img src={image} alt={title} loading="lazy" class="transition-all hover:scale-150" />
+    <img
+      src={image}
+      alt={title}
+      loading="lazy"
+      class="transition-all duration-300 hover:scale-150"
+    />
   </picture>
   <article class="flex flex-col w-[50%] leading-6 gap-6">
     <h2 class="text-4xl font-bold">{title}</h2>
@@ -49,7 +54,7 @@ const {
         <li>{stack}</li><li>{year}</li>
       </ul>
     </article>
-    <p class="text-pretty leading-6">{smallDescription}</p>
+    <p class="text-pretty leading-6">{description}</p>
     <article class="flex gap-2 flex-wrap">
       {technologies.map((technology) => <Tag>{technology}</Tag>)}
     </article>

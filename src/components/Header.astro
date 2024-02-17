@@ -1,6 +1,5 @@
 ---
 import LogoFace from "@/icons/LogoFace.astro"
-import MenuIcon from "@/icons/MenuIcon.astro"
 ---
 
 <header
@@ -9,12 +8,29 @@ import MenuIcon from "@/icons/MenuIcon.astro"
   <LogoFace />
   <div class="flex">
     <button
-      class="hamburger-menu focus-outline"
+      class="hamburger-menu focus-outline md:hidden"
       aria-label="Open Menu"
       aria-expanded="false"
       aria-controls="menu-items"
     >
-      <MenuIcon class="menu-icon md:hidden hover:scale-110 cursor-pointer" />
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="menu-icon"
+      >
+        <line x1="7" y1="12" x2="21" y2="12" class="line"></line>
+        <line x1="3" y1="6" x2="21" y2="6" class="line"></line>
+        <line x1="12" y1="18" x2="21" y2="18" class="line"></line>
+        <line x1="18" y1="6" x2="6" y2="18" class="close"></line>
+        <line x1="6" y1="6" x2="18" y2="18" class="close"></line>
+      </svg>
     </button>
     <nav class="realative">
       <ul class="md:flex gap-4 menu-list hidden" id="menu-items">
@@ -54,15 +70,18 @@ import MenuIcon from "@/icons/MenuIcon.astro"
     }
   }
 
-  .menu-icon {
+  .menu-icon line {
     @apply transition-opacity duration-75 ease-in-out;
   }
-  /* .menu-icon .close {
+  .menu-icon .close {
     opacity: 0;
-  } */
-  /* .menu-icon.is-active {
+  }
+  .menu-icon.is-active .line {
     @apply opacity-0;
-  } */
+  }
+  .menu-icon.is-active .close {
+    @apply opacity-100;
+  }
 </style>
 
 <script>
@@ -81,7 +100,12 @@ import MenuIcon from "@/icons/MenuIcon.astro"
         menuExpanded ? "Open Menu" : "Close Menu",
       )
       menuItems?.classList.toggle("hidden")
-      menuItems?.classList.toggle("absolute right-4")
+      menuItems?.classList.toggle("absolute")
+      menuItems?.classList.toggle("right-5")
+      menuItems?.classList.toggle("top-11")
+      menuItems?.classList.toggle("bg-indigo-950")
+      menuItems?.classList.toggle("flex")
+      menuItems?.classList.toggle("flex-col")
     })
   }
 

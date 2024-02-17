@@ -1,38 +1,49 @@
 ---
 import LogoFace from "@/icons/LogoFace.astro"
+import MenuIcon from "@/icons/MenuIcon.astro"
 ---
 
 <header
-  class="w-full flex justify-between bg-indigo-950 text-base font-medium py-4 px-36 shadow-md shadow-indigo-500 sticky top-0 left-0 z-10"
+  class="w-full flex justify-between bg-indigo-950 text-base font-medium md:py-4 py-3 md:px-36 px-16 shadow-md shadow-indigo-500 sticky top-0 left-0 z-10"
 >
   <LogoFace />
-  <nav>
-    <ul class="flex gap-4 menu-list">
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <div>
+    <nav class="md:flex hidden">
+      <ul class="flex gap-4 menu-list">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <MenuIcon class="md:hidden hover:scale-110 cursor-pointer" />
+  </div>
 </header>
 <style>
   .menu-list li a {
     padding: 5px 10px 5px 10px;
-    transition: all 0.3s ease-in-out;
+    /* transition: all 0.5s ease-in-out; */
   }
   .menu-list li a:hover {
     /* padding: 5px 10px 5px 10px; */
-    border-radius: 5px;
+    /* border-radius: 5px; */
+    /* box-shadow: 0 0 5px 0 rgba(255, 255, 255, 0.5); */
+    /* border: 1px solid black; */
     animation: bordes 0.3s ease-in forwards;
+    /* transition: all 0.3s ease-in; */
   }
 
   @keyframes bordes {
     0% {
       border-bottom: 1px solid white;
       border-right: none;
+      border-top: none;
+      border-left: none;
     }
     100% {
       border-right: 1px solid white;
       border-bottom: 1px solid white;
+      border-top: none;
+      border-left: none;
     }
   }
 </style>

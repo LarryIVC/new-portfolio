@@ -20,8 +20,9 @@ const { title } = Astro.props
     <title>{title}</title>
   </head>
   <body class="relative text-white/90">
-    <div id="home"
-      class="absolute top-0 bottom-0 z-[-2] h-full w-full bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px] bg-repeat"
+    <div
+      id="home"
+      class="absolute top-0 bottom-0 left-0 right-0 z-[-2] h-full w-full bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px] bg-repeat"
     >
     </div>
     <Header />
@@ -34,15 +35,15 @@ const { title } = Astro.props
     /* color-scheme: light dark; */
   }
 
-  body {
+  /* body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
+  } */
+
   html {
     scroll-behavior: smooth;
-    font-family: "Poppins", sans-serif;    
+    font-family: "Poppins", sans-serif;
   }
 
   @media (prefers-reduce-motion: reduce) {

@@ -4,22 +4,22 @@ import Tag from "@/components/Tag.astro"
 ---
 
 <section
-  class="w-full min-h-[646px] bg-no-repeat bg-[url('/backgrounds/bg-header-big.webp')] bg-cover rounded-bl-[100px] bg-slate-900 flex justify-center items-center"
+  class="w-full md:min-h-[646px] min-h-[420px] bg-no-repeat md:bg-[url('/backgrounds/bg-header-big.webp')] bg-[url('/backgrounds/bg-header.webp')] bg-cover  rounded-bl-[100px] bg-slate-900 flex justify-center items-center"
 >
-  <article class="max-w-[540px]">
+  <article class="md:max-w-[540px] max-w-[440px] px-6">
     <h1
-      class="font-bold text-5xl leading-[60px] tracking-wide
-    bg-clip-text text-transparent bg-gradient-to-r from-white via-indigo-600 to-indigo-900 "
+      class="font-bold text-4xl md:text-5xl md:leading-[60px] leading-[52px] tracking-wide
+    bg-clip-text text-transparent bg-gradient-to-r from-white via-indigo-600 to-indigo-900"
     >
       Hello!<br />I'm Larry Villegas
     </h1>
-    <p class="text-pretty text-2xl">
-      A <Tag class="text-xl px-0">Full-Stack Web Developer</Tag>, based in
-      Bolivia who enjoys tackling challenges. I invite you to take a look at the
-      projects I've developed, and I'd love the opportunity to bring your
-      project to life as well.
+    <p class="text-pretty md:text-2xl text-base">
+      A <Tag class="md:text-xl text-base px-0">Full-Stack Web Developer</Tag>,
+      based in Bolivia who enjoys tackling challenges. I invite you to take a
+      look at the projects I've developed, and I'd love the opportunity to bring
+      your project to life as well.
     </p>
-    <p class="text-indigo-400 pt-5 pb-3 leading-6">¡REACH OUT TO ME!</p>
+    <p class="text-indigo-400 text-base font-medium md:text-base pt-5 pb-3 leading-6">¡REACH OUT TO ME!</p>
     <SocialNav />
   </article>
 </section>

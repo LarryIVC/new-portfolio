@@ -7,15 +7,22 @@ import MenuIcon from "@/icons/MenuIcon.astro"
   class="w-full flex justify-between bg-indigo-950 text-base font-medium md:py-4 py-3 md:px-36 px-16 shadow-md shadow-indigo-500 sticky top-0 left-0 z-10"
 >
   <LogoFace />
-  <div>
-    <nav class="md:flex hidden">
-      <ul class="flex gap-4 menu-list">
+  <div class="flex">
+    <button
+      class="hamburger-menu focus-outline"
+      aria-label="Open Menu"
+      aria-expanded="false"
+      aria-controls="menu-items"
+    >
+      <MenuIcon class="menu-icon md:hidden hover:scale-110 cursor-pointer" />
+    </button>
+    <nav class="realative">
+      <ul class="md:flex gap-4 menu-list hidden" id="menu-items">
         <li><a href="#projects">Projects</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <MenuIcon class="md:hidden hover:scale-110 cursor-pointer" />
   </div>
 </header>
 <style>
@@ -46,4 +53,40 @@ import MenuIcon from "@/icons/MenuIcon.astro"
       border-left: none;
     }
   }
+
+  .menu-icon {
+    @apply transition-opacity duration-75 ease-in-out;
+  }
+  /* .menu-icon .close {
+    opacity: 0;
+  } */
+  /* .menu-icon.is-active {
+    @apply opacity-0;
+  } */
 </style>
+
+<script>
+  function toggleNav() {
+    // Toggle menu
+    const menuBtn = document.querySelector(".hamburger-menu")
+    const menuIcon = document.querySelector(".menu-icon")
+    const menuItems = document.querySelector("#menu-items")
+
+    menuBtn?.addEventListener("click", () => {
+      const menuExpanded = menuBtn.getAttribute("aria-expanded") === "true"
+      menuIcon?.classList.toggle("is-active")
+      menuBtn.setAttribute("aria-expanded", menuExpanded ? "false" : "true")
+      menuBtn.setAttribute(
+        "aria-label",
+        menuExpanded ? "Open Menu" : "Close Menu",
+      )
+      menuItems?.classList.toggle("hidden")
+      menuItems?.classList.toggle("absolute right-4")
+    })
+  }
+
+  toggleNav()
+
+  // Runs on view transitions navigation
+  document.addEventListener("astro:after-swap", toggleNav)
+</script>

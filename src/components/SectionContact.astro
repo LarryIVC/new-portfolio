@@ -3,16 +3,18 @@ import Button from "./Button.astro"
 import Tag from "./Tag.astro"
 ---
 
-<section class="w-full bg-slate-900" id="contact">
+<section class="w-full min-h-[779px] bg-slate-900" id="contact">
   <article
-    class="rounded-tl-[100px] bg-[#5c00d2] text-slate-900 align-middle
-  bg-no-repeat bg-[url('/backgrounds/bg-contact-form-big.webp')] bg-cover"
+    class="md:rounded-tl-[100px] rounded-tl-[80px] bg-[#5c00d2] text-slate-900 align-middle
+  bg-no-repeat md:bg-[url('/backgrounds/bg-contact-form-big.webp')] bg-[url('/backgrounds/bg-contact-form.webp')] bg-cover"
   >
     <article
-      class="flex flex-col gap-3 content-center items-center max-w-[801px] mx-auto my-0 pt-32 pb-32 text-white"
+      class="flex flex-col gap-3 content-center items-center md:max-w-[801px] max-w-80 mx-auto my-0 md:pt-32 pt-24 md:pb-32 pb-28 text-white/90"
     >
-      <h2 class="text-4xl leading-[52px] font-bold">Contact me</h2>
-      <p class="text-pretty max-w-[569px] text-center text-xl leading-7">
+      <h2 class="md:text-5xl text-4xl leading-[52px] font-bold">Contact me</h2>
+      <p
+        class="text-pretty md:max-w-[569px] max-w-80 text-center text-xl leading-7 text-slate-400"
+      >
         Undoubtedly, you have a fantastic idea that you'd like to transform into
         an application. I'd be delighted to assist you. Please feel free to
         contact me by leaving a message or sending an <Tag
@@ -24,8 +26,8 @@ import Tag from "./Tag.astro"
       <form
         method="POST"
         action="https://formspree.io/f/mnqyvdqr"
-        class="flex flex-col gap-6 content-center items-center
-        [&>label>input]:w-[447px] [&>label>input]:p-4 [&>label>input]:border-gray-400 [&>label>input]:text-lg [&>label>input]:leading-5 text-gray-700"
+        class="flex flex-col gap-6 content-center items-center pt-10
+        [&>label>input]:md:w-[447px] [&>label>input]:w-80 [&>label>input]:h-12 [&>label>input]:p-4 [&>label>input]:border-gray-400 [&>label>input]:text-lg [&>label>input]:leading-5 text-gray-700 [&>label>input]:rounded-lg [&>label>input]:md:rounded-none"
       >
         <label>
           <input type="text" name="name" placeholder="Your name" required />
@@ -40,7 +42,7 @@ import Tag from "./Tag.astro"
         </label>
         <label>
           <textarea
-            class="w-[447px] p-4 border-gray-400 text-lg leading-5 resize-none"
+            class="md:w-[447px] w-80 h-44 p-4 border-gray-400 text-lg leading-5 resize-none rounded-lg md:rounded-none"
             placeholder="Leave your message here"
             name="message"
             id="message"

@@ -34,9 +34,11 @@ const {
 ---
 
 <article
-  class="flex w-[1156px] bg-slate-900 rounded-xl p-6 gap-11 border border-indigo-800 shadow-indigo-400 shadow-inner"
+  class="flex md:flex-row flex-col md:max-w-[1156px] bg-slate-900 rounded-xl p-6 md:gap-6 gap-3 border border-indigo-800 shadow-indigo-400 shadow-inner"
 >
-  <picture class="w-[50%] rounded-xl overflow-hidden">
+  <picture
+    class="lg:w-[50%] md:w-full rounded-xl overflow-hidden flex justify-center align-middle items-center"
+  >
     <img
       src={image}
       alt={title}
@@ -44,21 +46,23 @@ const {
       class="transition-all duration-300 hover:scale-150"
     />
   </picture>
-  <article class="flex flex-col w-[50%] leading-6 gap-6">
-    <h2 class="text-4xl font-bold">{title}</h2>
+  <article class="flex flex-col lg:w-[50%] md:w-full leading-6 md:gap-6 gap-3">
+    <h2 class="md:text-4xl text-3xl font-bold">{title}</h2>
     <article class="flex leading-6 content-center">
-      <span class="text-lg text-green-300 mr-8">{enterprise}</span>
+      <span class="md:text-lg text-sm font-semibold text-green-300 mr-8"
+        >{enterprise}</span
+      >
       <ul
-        class="flex list-disc gap-8 [&>li]:opacity-70 content-center items-center"
+        class="flex list-disc gap-8 [&>li]:opacity-70 content-center items-center md:text-lg text-sm font-semibold"
       >
         <li>{stack}</li><li>{year}</li>
       </ul>
     </article>
-    <p class="text-pretty leading-6">{description}</p>
+    <p class="text-pretty md:text-base text-sm leading-6">{description}</p>
     <article class="flex gap-2 flex-wrap">
       {technologies.map((technology) => <Tag>{technology}</Tag>)}
     </article>
-    <div class="mt-4 flex gap-x-3">
+    <div class="mt-4 flex md:gap-x-3 gap-x-2">
       <Button>
         <div class="flex w-full h-full justify-center items-center gap-x-1">
           <a
@@ -83,14 +87,14 @@ const {
   </article>
 </article>
 
-<dialog
+<!-- <dialog
   id="project"
   class="w-full h-full bg-black/30 backdrop-sepia p-0 m-0 border-lime-300"
 >
   <button id="close" class="px-2 py-1 bg-slate-50 text-black mx-auto my-0"
     >close</button
   >
-</dialog>
+</dialog> -->
 
 <!-- <script
   define:vars={{

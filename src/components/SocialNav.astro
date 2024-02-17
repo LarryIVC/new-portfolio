@@ -7,13 +7,14 @@ import Wellfound from "@/icons/Wellfound.astro"
 ---
 
 <nav>
-  <ul class="flex gap-6 item-social">
+  <ul class="flex md:gap-6 gap-4 item-social">
     <li>
       <a
         href="https://github.com/LarryIVC"
         target="_blank"
         aria-label="Github profile"
-        rel="nooppener noreferrer"><Github class="h-7 w-7 text-gray-200" /></a
+        rel="nooppener noreferrer"
+        ><Github class="md:h-7 md:w-7 h-5 w-5 text-gray-200" /></a
       >
     </li>
     <li>
@@ -21,7 +22,8 @@ import Wellfound from "@/icons/Wellfound.astro"
         href="https://www.linkedin.com/in/larryvillegascostas/"
         target="_blank"
         aria-label="Linkedin profile"
-        rel="nooppener noreferrer"><Linkedin class="h-7 w-7 text-gray-200" /></a
+        rel="nooppener noreferrer"
+        ><Linkedin class="md:h-7 md:w-7 h-5 w-5 text-gray-200" /></a
       >
     </li>
     <li>
@@ -29,7 +31,8 @@ import Wellfound from "@/icons/Wellfound.astro"
         href="https://medium.com/@larry.villegas"
         target="_blank"
         aria-label="Medium profile"
-        rel="nooppener noreferrer"><Medium class="h-7 w-7 text-gray-200" /></a
+        rel="nooppener noreferrer"
+        ><Medium class="md:h-7 md:w-7 h-5 w-5 text-gray-200" /></a
       >
     </li>
     <li>
@@ -37,7 +40,8 @@ import Wellfound from "@/icons/Wellfound.astro"
         href="https://twitter.com/LarryVillegas"
         target="_blank"
         aria-label="Twitter profile"
-        rel="nooppener noreferrer"><Twitter class="h-7 w-7 text-gray-200" /></a
+        rel="nooppener noreferrer"
+        ><Twitter class="md:h-7 md:w-7 h-5 w-5 text-gray-200" /></a
       >
     </li>
     <li>
@@ -46,7 +50,7 @@ import Wellfound from "@/icons/Wellfound.astro"
         target="_blank"
         aria-label="Wellfound profile"
         rel="nooppener noreferrer"
-        ><Wellfound class="h-7 w-7 text-gray-200" /></a
+        ><Wellfound class="md:h-7 md:w-7 h-5 w-5 text-gray-200" /></a
       >
     </li>
   </ul>
@@ -55,10 +59,17 @@ import Wellfound from "@/icons/Wellfound.astro"
   .item-social li {
     border-radius: 8px;
     transition: all 0.3s ease;
-    padding: 5px 10px 5px 10px;
+    padding: 3px 5px 3px 5px;
   }
   .item-social li:hover {
     border: 1px solid whitesmoke;
-    transform: scale(1.25);
+    transform: scale(1.15);
+  }
+
+  @media (min-width: 768px) {
+    .item-social li {
+      border-radius: 6px;
+      padding: 5px 10px 5px 10px;
+    }
   }
 </style>

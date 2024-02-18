@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center" >
-<div style="background: rgba(255,255,255,.3)">
+<div style="background-color: #ffffff30;">
    <img src="./public/favicon.svg" alt="logo" width="70"  height="auto" />
 </div>
   <br/>

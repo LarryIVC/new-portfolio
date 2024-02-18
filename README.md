@@ -1,56 +1,156 @@
-# Astro Starter Kit: Basics
+<a name="readme-top"></a>
+
+<div align="center" >
+<div style="background: rgba(255,255,255,.3)">
+   <img src="./public/favicon.svg" alt="logo" width="70"  height="auto" />
+</div>
+  <br/>
+
+# Larry Villegas Portfolio
+</div>
 
 
+# 📗 Table of Contents 
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+    - [Walkthrough to the Portfolio Project](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
+
+# 📖 [Larry Villegas Portfolio] <a name="about-project"></a>
+
+**[Larry Villegas Portfolio]** is a portfolio with a works as a developer
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/es/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
+    <li><a href="https://astro.build/">Astro</a></li>
+  </ul>
+</details>
+  
+### Key Features <a name="key-features"></a>
+
+**Enlist skill sets and tech stack**
+- **Responsive design**
+- **Mobile First methodology**
+- **Walkthrough to the [Portfolio Project](https://www.loom.com/share/f2fdbd7445c8471990b5c3deda36544e)**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+Click <a href="https://portfolio-larry.netlify.app/">here</a> to live versión.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running follow these simple example.
+
+### Prerequisites
+
+In order to run this project you need:
+
+  * Visual Studio Code
+  * Browser [Chrome]
+  * Linters
+
+### Setup
+
+Clone this repository to your desired folder:
+
+Example commands:
 
 ```sh
-npm create astro@latest -- --template basics
+  git clone git@github.com:LarryIVC/new-portfolio.git
+  cd my-folder
+```
+### Install
+
+Install this project with:
+
+Example command:
+
+```sh
+  npm install
+```
+### Usage
+
+To run the project, execute the following command:
+
+Example command:
+
+```sh
+  npm run dev
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+<!-- AUTHORS -->
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## 👥 Authors <a name="authors"></a>
 
-## 🚀 Project Structure
+👤 ** Larry Villegas **
 
-Inside of your Astro project, you'll see the following folders and files:
+- GitHub: [LarryIVC](https://github.com/LarryIVC)
+- Twitter: [LarryVillegas](https://twitter.com/LarryVillegas)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/larryvillegascostas)
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+<!-- CONTRIBUTING -->
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## 🤝 Contributing <a name="contributing"></a>
 
-Any static assets, like images, can be placed in the `public/` directory.
+Contributions, issues, and feature requests are welcome!
 
-## 🧞 Commands
+Feel free to check the [issues page](https://github.com/LarryIVC/portfolio/issues).
 
-All commands are run from the root of the project, from a terminal:
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+<!-- SUPPORT -->
 
-## 👀 Want to learn more?
+## ⭐️ Show your support <a name="support"></a>
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Help me with your criticisms and your suggestions, you will be blessed for such a noble gesture and give me a ⭐️ if you like this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank [Microverse](https://www.microverse.org/?grsf=l49pe7) for this template that I based it on.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

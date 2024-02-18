@@ -44,15 +44,9 @@ import LogoFace from "@/icons/LogoFace.astro"
 <style>
   .menu-list li a {
     padding: 5px 10px 5px 10px;
-    /* transition: all 0.5s ease-in-out; */
   }
   .menu-list li a:hover {
-    /* padding: 5px 10px 5px 10px; */
-    /* border-radius: 5px; */
-    /* box-shadow: 0 0 5px 0 rgba(255, 255, 255, 0.5); */
-    /* border: 1px solid black; */
     animation: bordes 0.3s ease-in forwards;
-    /* transition: all 0.3s ease-in; */
   }
 
   @keyframes bordes {
@@ -83,6 +77,17 @@ import LogoFace from "@/icons/LogoFace.astro"
   .menu-icon.is-active .close {
     @apply opacity-100;
   }
+
+  .show {
+    @apply absolute;
+    @apply right-5;
+    @apply top-11;
+    @apply bg-indigo-950;
+    @apply flex;
+    @apply flex-col;
+    @apply p-3;
+    @apply opacity-95;
+  }
 </style>
 
 <script>
@@ -100,14 +105,8 @@ import LogoFace from "@/icons/LogoFace.astro"
         "aria-label",
         menuExpanded ? "Open Menu" : "Close Menu",
       )
+      menuItems?.classList.toggle("show")
       menuItems?.classList.toggle("hidden")
-      menuItems?.classList.toggle("absolute")
-      menuItems?.classList.toggle("right-5")
-      menuItems?.classList.toggle("top-11")
-      menuItems?.classList.toggle("bg-indigo-950")
-      menuItems?.classList.toggle("flex")
-      menuItems?.classList.toggle("flex-col")
-      menuItems?.classList.toggle("p-3")
     })
   }
 

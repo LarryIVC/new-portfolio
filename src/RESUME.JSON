@@ -3,27 +3,43 @@
     "name": "Larry Villegas Costas",
     "label": "Full Stack Web Developer",
     "image": "./Larry.webp",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "url": "https://johndoe.com",
-    "summary": "A summary of John Doe…",
+    "email": "larry_villegas@hotmail.com",
+    "phone": "(591) 60103602",
+    "url": "https://portfolio-larry.netlify.app/",
+    "summary": "A Full-Stack Web Developer, based in Bolivia who enjoys tackling challenges. I invite you to take a look at the projects I've developed, and I'd love the opportunity to bring your project to life as well.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Subteninete Burgos 1610, La Paz, Bolivia",
+      "postalCode": "n/a",
+      "city": "La Paz",
+      "countryCode": "BO",
+      "region": "La Paz"
     },
     "profiles": [{
       "network": "Twitter",
-      "username": "john",
-      "url": "https://twitter.com/john"
+      "username": "Larry Villegas",
+      "url": "https://twitter.com/LarryVillegas"
+    },{
+      "network": "Linkedin",
+      "username": "larryvillegascostas",
+      "url": "https://www.linkedin.com/in/larryvillegascostas/"
+    },{
+      "network": "GitHub",
+      "username": "LarryIVC",
+      "url": "https://github.com/LarryIVC"
+    },{
+      "network": "Medium",
+      "username": "@larry.villegas",
+      "url": "https://medium.com/@larry.villegas"
+    },{
+      "network": "WellFound",
+      "username": "larry-villegas",
+      "url": "https://wellfound.com/u/larry-villegas"
     }]
   },
   "work": [{
-    "name": "Company",
-    "position": "President",
-    "url": "https://company.com",
+    "name": "Self-Employed",
+    "position": "Full Stack Web Developer",
+    "url": "",
     "startDate": "2013-01-01",
     "endDate": "2014-01-01",
     "summary": "Description…",
@@ -34,24 +50,48 @@
   "volunteer": [{
     "organization": "Organization",
     "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
+    "url": "https://portfolio-larry.netlify.app/",
+    "startDate": "2023-01-02",
+    "endDate": "present",
+    "summary": "Development of team projects remotely. Pair programming whit 40+ developers from different parts of the world.",
     "highlights": [
-      "Awarded 'Volunteer of the Month'"
+      "Graduated as a Full Stack Web Developer"
+    ]
+  },
+  {
+    "organization": "Ministerio de Defensa del Estado Plurinacional de Bolivia",
+    "position": "Head of Computer System Unit",
+    "url": "https://www.mindef.gob.bo/",
+    "startDate": "2010-01-03",
+    "endDate": "2019-01-01",
+    "summary": "Led a teamfor 7 years, resolving administrative challenges and overseeing salarymanagement for over 15,000 individuals.",
+    "highlights": [
+      "Modernizedtheprocessof issuingmilitaryandpre-militaryservicecertificatesinthePlurinationalStateofBolivia.— Reducedprocessingtimefromonemonthtoafewhours.",
+      "Implementedrobustsecuritymeasurescomparabletothoseusedforpaperbillsorcurrency.",
+      "Technologiesused:MicrosoftSQLServer,MicrosoftASPXwithVisualC#,IBMInformix4GL.", 
+      "Recognizedforleadingthisproject,andevenreceivingapromotion.",
+      "MilitaryandPre-MilitaryServiceCertificatesintheDefenseMinistryPlurinationalStateofBolivia."
     ]
   }],
   "education": [{
-    "institution": "University",
-    "url": "https://institution.com/",
-    "area": "Software Development",
+    "institution": "Microverse",
+    "url": "https://www.microverse.org/?grsf=l49pe7",
+    "area": "Remote Full Stack Web Development Program, Full-Time",
     "studyType": "Bachelor",
-    "startDate": "2011-01-01",
-    "endDate": "2013-01-01",
-    "score": "4.0",
+    "startDate": "2023-10-02",
+    "endDate": "2023-22-10",
+    "score": "4.0/4.0",
     "courses": [
-      "DB1101 - Basic SQL"
+      "Git - Version Control", 
+      "GitHub - Collaboration",
+      "HTML HiperText Markup Language",
+      "CSS Cascading Style Sheets",
+      "JavaScript - Programming Language",
+      "React - Front-End Library",
+      "Redux - State Management",
+      "Ruby - Programming Language",
+      "Ruby on Rails - Web Application Framework",
+      "SQL - Structured Query Language"
     ]
   }],
   "awards": [{

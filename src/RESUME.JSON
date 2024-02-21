@@ -14,137 +14,276 @@
       "countryCode": "BO",
       "region": "La Paz"
     },
-    "profiles": [{
-      "network": "Twitter",
-      "username": "Larry Villegas",
-      "url": "https://twitter.com/LarryVillegas"
-    },{
-      "network": "Linkedin",
-      "username": "larryvillegascostas",
-      "url": "https://www.linkedin.com/in/larryvillegascostas/"
-    },{
-      "network": "GitHub",
-      "username": "LarryIVC",
-      "url": "https://github.com/LarryIVC"
-    },{
-      "network": "Medium",
-      "username": "@larry.villegas",
-      "url": "https://medium.com/@larry.villegas"
-    },{
-      "network": "WellFound",
-      "username": "larry-villegas",
-      "url": "https://wellfound.com/u/larry-villegas"
-    }]
-  },
-  "work": [{
-    "name": "Self-Employed",
-    "position": "Full Stack Web Developer",
-    "url": "",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Started the company"
-    ]
-  }],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://portfolio-larry.netlify.app/",
-    "startDate": "2023-01-02",
-    "endDate": "present",
-    "summary": "Development of team projects remotely. Pair programming whit 40+ developers from different parts of the world.",
-    "highlights": [
-      "Graduated as a Full Stack Web Developer"
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "Larry Villegas",
+        "url": "https://twitter.com/LarryVillegas"
+      },
+      {
+        "network": "Linkedin",
+        "username": "larryvillegascostas",
+        "url": "https://www.linkedin.com/in/larryvillegascostas/"
+      },
+      {
+        "network": "GitHub",
+        "username": "LarryIVC",
+        "url": "https://github.com/LarryIVC"
+      },
+      {
+        "network": "Medium",
+        "username": "@larry.villegas",
+        "url": "https://medium.com/@larry.villegas"
+      },
+      {
+        "network": "WellFound",
+        "username": "larry-villegas",
+        "url": "https://wellfound.com/u/larry-villegas"
+      }
     ]
   },
-  {
-    "organization": "Ministerio de Defensa del Estado Plurinacional de Bolivia",
-    "position": "Head of Computer System Unit",
-    "url": "https://www.mindef.gob.bo/",
-    "startDate": "2010-01-03",
-    "endDate": "2019-01-01",
-    "summary": "Led a teamfor 7 years, resolving administrative challenges and overseeing salarymanagement for over 15,000 individuals.",
-    "highlights": [
-      "Modernizedtheprocessof issuingmilitaryandpre-militaryservicecertificatesinthePlurinationalStateofBolivia.— Reducedprocessingtimefromonemonthtoafewhours.",
-      "Implementedrobustsecuritymeasurescomparabletothoseusedforpaperbillsorcurrency.",
-      "Technologiesused:MicrosoftSQLServer,MicrosoftASPXwithVisualC#,IBMInformix4GL.", 
-      "Recognizedforleadingthisproject,andevenreceivingapromotion.",
-      "MilitaryandPre-MilitaryServiceCertificatesintheDefenseMinistryPlurinationalStateofBolivia."
-    ]
-  }],
-  "education": [{
-    "institution": "Microverse",
-    "url": "https://www.microverse.org/?grsf=l49pe7",
-    "area": "Remote Full Stack Web Development Program, Full-Time",
-    "studyType": "Bachelor",
-    "startDate": "2023-10-02",
-    "endDate": "2023-22-10",
-    "score": "4.0/4.0",
-    "courses": [
-      "Git - Version Control", 
-      "GitHub - Collaboration",
-      "HTML HiperText Markup Language",
-      "CSS Cascading Style Sheets",
-      "JavaScript - Programming Language",
-      "React - Front-End Library",
-      "Redux - State Management",
-      "Ruby - Programming Language",
-      "Ruby on Rails - Web Application Framework",
-      "SQL - Structured Query Language"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
-  "skills": [{
-    "name": "Web Development",
-    "level": "Master",
-    "keywords": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ]
-  }],
-  "languages": [{
-    "language": "English",
-    "fluency": "Native speaker"
-  }],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
-  "projects": [{
-    "name": "Project",
-    "startDate": "2019-01-01",
-    "endDate": "2021-01-01",
-    "description": "Description...",
-    "highlights": [
-      "Won award at AIHacks 2016"
-    ],
-    "url": "https://project.com/"
-  }]
+  "work": [
+    {
+      "name": "Self-Employed",
+      "position": "Full Stack Web Developer",
+      "url": "",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://portfolio-larry.netlify.app/",
+      "startDate": "2023-01-02",
+      "endDate": "present",
+      "summary": "Development of team projects remotely. Pair programming whit 40+ developers from different parts of the world.",
+      "highlights": [
+        "Graduated as a Full Stack Web Developer"
+      ]
+    },
+    {
+      "organization": "Ministerio de Defensa del Estado Plurinacional de Bolivia",
+      "position": "Head of Computer System Unit",
+      "url": "https://www.mindef.gob.bo/",
+      "startDate": "2010-01-03",
+      "endDate": "2019-01-01",
+      "summary": "Led a teamfor 7 years, resolving administrative challenges and overseeing salarymanagement for over 15,000 individuals.",
+      "highlights": [
+        "Modernizedtheprocessof issuingmilitaryandpre-militaryservicecertificatesinthePlurinationalStateofBolivia.— Reducedprocessingtimefromonemonthtoafewhours.",
+        "Implementedrobustsecuritymeasurescomparabletothoseusedforpaperbillsorcurrency.",
+        "Technologiesused:MicrosoftSQLServer,MicrosoftASPXwithVisualC#,IBMInformix4GL.",
+        "Recognizedforleadingthisproject,andevenreceivingapromotion.",
+        "MilitaryandPre-MilitaryServiceCertificatesintheDefenseMinistryPlurinationalStateofBolivia."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Microverse",
+      "url": "https://www.microverse.org/?grsf=l49pe7",
+      "area": "Remote Full Stack Web Development Program, Full-Time",
+      "studyType": "Bachelor",
+      "startDate": "2023-10-02",
+      "endDate": "2023-22-10",
+      "score": "4.0/4.0",
+      "courses": [
+        "Git - Version Control",
+        "GitHub - Collaboration",
+        "HTML HiperText Markup Language",
+        "CSS Cascading Style Sheets",
+        "JavaScript - Programming Language",
+        "React - Front-End Library",
+        "Redux - State Management",
+        "Ruby - Programming Language",
+        "Ruby on Rails - Web Application Framework",
+        "SQL - Structured Query Language"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "HTML / CSS",
+      "publisher": "Microverse",
+      "releaseDate": "2023-03-26",
+      "url": "https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/70557153",
+      "summary": "Students earn this credential after demonstrating industry standard HTML and CSS skills, achieved working on remote pair programming with teams from around the world."
+    },
+    {
+      "name": "JavaScript",
+      "publisher": "Microverse",
+      "releaseDate": "2023-04-30",
+      "url": "https://www.credential.net/812e3e75-c1fe-4abf-8fb5-200b1cb5ccd1#gs.5c2eyi",
+      "summary": "Students earn this credential after demonstrating understanding and mastery of JavaScript. During the course of this module, they build several projects using JavaScript while pair-programming remotely with an international team of software developers."
+    },
+    {
+      "name": "React / Redux",
+      "publisher": "Microverse",
+      "releaseDate": "2023-06-11",
+      "url": "https://www.credential.net/31d41a5b-977d-4b79-8fb0-fad3024c4d95#gs.5c2hsv",
+      "summary": "Students earn this credential after demonstrating thorough understanding and mastery of React and Redux. Over the course of this module, students build and develop multiple projects using React and Redux, working both independently and while remotely pair-programming."
+    },
+    {
+      "name": "Ruby / Databases",
+      "publisher": "Microverse",
+      "releaseDate": "2023-07-23",
+      "url": "https://www.credential.net/29ac1349-0822-4744-9f95-9102a8e8a287#gs.5c2ko5",
+      "summary": "Students earn this credential after demonstrating thorough and complete understanding of Ruby and databases by building multiple projects while collaborating and pair programming remotely with developers across the world."
+    },
+    {
+      "name": "Ruby on Rails",
+      "publisher": "Microverse",
+      "releaseDate": "2023-09-03",
+      "url": "https://www.credential.net/f65fe7c4-0c20-4325-aca8-67996fd5546d#gs.5c2mta",
+      "summary": "Students earn this credential upon demonstrating mastery of Ruby on Rails by building multiple real-world Rails applications alongside software developers from all over the world."
+    },
+    {
+      "name": "Full Stack Capstone",
+      "publisher": "Microverse",
+      "releaseDate": "2023-09-24",
+      "url": "https://www.credential.net/c13a2484-bc01-443a-a81a-8355997bdd85#gs.5c2oc8",
+      "summary": "Students earn this credential after demonstrating the ability to collaborate with other students in order to develop a project based on business requirements. This project consists of React & Redux frontend part and Ruby on Rails API as the backend part and is presented to an external evaluator. Over the course of this module module, students use all technical and professional skills gained in the entire Program."
+    },
+    {
+      "name": "Full Stack Web Development",
+      "publisher": "Microverse",
+      "releaseDate": "2023-10-22",
+      "url": "https://www.credential.net/024aa33b-4f50-4c47-bd46-1c4b5d1eef59#gs.5c2s65",
+      "summary": "Students earn this credential after working through 1500+ hours of remote pair programming, learning to code with teams from around the world."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Full Stack Web Development",
+      "level": "Medium",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Redux",
+        "Ruby",
+        "Ruby on Rails",
+        "SQL",
+        "Git",
+        "GitHub"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Upper intermediate level"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music",
+      "keywords": [
+        "Guitar",
+        "Bass"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Muneeb ur Rehman",
+      "reference": "Full Stack Web Developer"
+    },
+    {
+      "name": "Santiago Munoz",
+      "reference": "Full Stack Web Developer"
+    },
+    {
+      "name": "Oscar Villagrán",
+      "reference": "Full Stack Web Developer"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Fast Land Racers",
+      "startDate": "2023-09-25",
+      "endDate": "2023-10-22",
+      "description": "Fast-Lane-Racer is a car booking website that enables users to effortlessly book rides and travel to their desired destinations. Users can reserve a car from the available options by providing the date and city, ensuring a seamless and reliable car booking experience.",
+      "highlights": [
+        "Developed a full-stack web application using Ruby on Rails and React & Redux."
+      ],
+      "url": "https://shiny-longma-bba6fb.netlify.app/"
+    },
+    {
+      "name": "Tesla Clone",
+      "startDate": "2023-10-24",
+      "endDate": "2023-10-30",
+      "description": "Tesla Clone is a replica of the Tesla website. It is a static website built using Astro, Tailwind..",
+      "highlights": [
+        "Developed a static website using Astro, Tailwind, and Netlify."
+      ],
+      "url": "https://tesla-clon-larry.netlify.app/"
+    },
+    {
+      "name": "Pennywise",
+      "startDate": "2023-08-30",
+      "endDate": "2023-09-06",
+      "description": "Pennywise: Simplify your finances. Track expenses, set budgets, gain insights, and make informed decisions for financial freedom. Get started today!",
+      "highlights": [
+        "Developed a full-stack web application using Ruby on Rails and React & Redux."
+      ],
+      "url": "https://rails-lb6q.onrender.com/"
+    },
+    {
+      "name": "Crypto Coinranking",
+      "startDate": "2023-04-29",
+      "endDate": "2023-05-10",
+      "description": "It's a powerful web application designed specifically for cryptocurrencies. Leveraging the capabilities of React and Redux, it offers comprehensive information about various digital coins.",
+      "highlights": [
+        "Developed web application using React & Redux."
+      ],
+      "url": "https://react-coin-coinranking.netlify.app/"
+    },
+    {
+      "name": "The Simpsons Fans Club",
+      "startDate": "2023-04-10",
+      "endDate": "2023-04-15",
+      "description": "This project showcases my proficiency in JavaScript, Webpack, and Jest, along with my skills in working with JSON for reading and writing APIs.",
+      "highlights": [
+        "Developed a static website using JavaScript, Webpack, and Jest."
+      ],
+      "url": "https://js-capstoneproject.netlify.app/"
+    },
+    {
+      "name": "Catholic Music Concert",
+      "startDate": "2023-03-24",
+      "endDate": "2023-03-30",
+      "description": "A landing page specifically created to promote a Catholic concert. The design is intuitive and user-friendly, enabling visitors to access essential concert details such as date, time, venue, and artists quickly and easily.",
+      "highlights": [
+        "Developed a static website using HTML, CSS, and JavaScript."
+      ],
+      "url": "https://larryivc.github.io/EventPage/"
+    }
+  ]
 }

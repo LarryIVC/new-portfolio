@@ -1,0 +1,60 @@
+---
+import { basics } from "@resume"
+import Section from "@/components/resume/Section.astro"
+
+const { name, label, profiles, email } = basics
+---
+
+<Section>
+  <div class="flex justify-between items-end">
+    <h1 class="text-2xl font-bold text-primary uppercase">{name}</h1>
+    <p class="uppercase text-base text-primary ">{label}</p>
+  </div>
+  <div>
+    <ul class="flex gap-1 text-blue-400 text-xs justify-end">
+      <li>
+        <a
+          href=`mailto:${email}`
+          title=`Send an email to ${name}`
+          target="_blank"
+          rel="noopener noreferrer"
+          class="hover:bg-primary hover:text-white py-[2px] px-1 hover:rounded"
+        >
+          Email
+        </a>
+      </li>
+      <span>|</span>
+      {
+        profiles.map(({ url, username, network }) => {
+          return (
+            <>
+              <li>
+                <a
+                  href={url}
+                  title={`Visit ${network} profile of ${username}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="hover:bg-primary hover:text-white py-[2px] px-1 hover:rounded"
+                >
+                  {network}
+                </a>
+              </li>
+              <span>|</span>
+            </>
+          )
+        })
+      }
+      <li>
+        <a
+          href="/"
+          title=`${name} portfolio`
+          target="_blank"
+          rel="noopener noreferrer"
+          class="hover:bg-primary hover:text-white py-[2px] px-1 hover:rounded"
+        >
+          Portfolio
+        </a>
+      </li>
+    </ul>
+  </div>
+</Section>

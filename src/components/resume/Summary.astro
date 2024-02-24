@@ -1,0 +1,9 @@
+---
+import Section from "@/components/resume/Section.astro"
+import { basics } from "@resume"
+const { summary } = basics
+---
+
+<Section title="Summary">
+  <p class="text-pretty pt-2 text-gray-700 text-xs">{summary}</p>
+</Section>

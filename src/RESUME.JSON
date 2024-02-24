@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Larry Villegas Costas",
-    "label": "Full Stack Web Developer",
+    "label": "Remote Full Stack Web Developer",
     "image": "./Larry.webp",
     "email": "larry_villegas@hotmail.com",
     "phone": "(591) 60103602",
     "url": "https://portfolio-larry.netlify.app/",
-    "summary": "A Full-Stack Web Developer, based in Bolivia who enjoys tackling challenges. I invite you to take a look at the projects I've developed, and I'd love the opportunity to bring your project to life as well.",
+    "summary": "Technology enthusiast and certified Full Stack developer taking pleasure in assisting organizations in crafting innovative solutions for optimizing business processes. Brings a wealth of experience from various software development roles, spanning front-end technologies like JavaScript, React, Redux, and Tailwind, as well as back-end technologies such as Ruby on Rails and PostgreSQL. Background includes extensive experience in agile communication and teamwork, along with success in managing and leading teams of over 10 individuals.",
     "location": {
       "address": "Subteninete Burgos 1610, La Paz, Bolivia",
       "postalCode": "n/a",
@@ -175,7 +175,7 @@
   ],
   "skills": [
     {
-      "name": "Full Stack Web Development",
+      "name": "Front End",
       "level": "Medium",
       "keywords": [
         "HTML",
@@ -183,11 +183,48 @@
         "JavaScript",
         "React",
         "Redux",
+        "Tailwind",
+        "Astro",
+        "Jest"
+      ]
+    },
+    {
+      "name": "Back End",
+      "level": "Medium",
+      "keywords": [
         "Ruby",
         "Ruby on Rails",
         "SQL",
+        "PostgreSQL",
+        "4GL",
+        "IBM Informix",
+        "MySQL",
+        "Microsoft SQL Server"
+      ]
+    },
+    {
+      "name": "Tools & Methods",
+      "level": "Medium",
+      "keywords": [
         "Git",
-        "GitHub"
+        "GitHub",
+        "VSCode",
+        "Netlify",
+        "Mobile/Responsive Development",
+        "Test-Driven Development (TDD)",
+        "Chrome DevTools"
+      ]
+    },
+    {
+      "name": "Professional Skills",
+      "level": "Medium",
+      "keywords": [
+        "Remote Pair Programming",
+        "Remote Mob Programming",
+        "Teamwork",
+        "Leadership",
+        "Problem-Solving",
+        "Effective Communication"
       ]
     }
   ],

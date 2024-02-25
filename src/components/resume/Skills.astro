@@ -1,0 +1,21 @@
+---
+import Section from "@/components/resume/Section.astro"
+import { skills } from "@resume"
+---
+
+<Section title="Skills">
+  <!-- <p class="text-pretty pt-2 text-gray-700 text-xs"></p> -->
+  <article class="mt-2">
+    {
+      skills.map(({ name, keywords }) => {
+        const labelSkills = keywords.filter(Boolean).join(", ")
+        return (
+          <p class="text-xs text-pretty text-gray-700">
+            <span class="font-bold">{name}: </span>
+            <span>{labelSkills}.</span>
+          </p>
+        )
+      })
+    }
+  </article>
+</Section>

@@ -46,12 +46,23 @@
     {
       "name": "Self-Employed",
       "position": "Full Stack Web Developer",
-      "url": "",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+      "url": "https://portfolio-larry.netlify.app/",
+      "startDate": "2023-02-01",
+      "endDate": null,
+      "summary": "Remote Full Stack Web Development Program, Full-Time Mastered algorithms, data structures, and full-stack development during a 1300+ hour intensive program. Developing projects with Ruby, Rails, JavaScript, React, and Redux. Practiced remote pair programming and mob programming using GitHub and industry-standard Gitflow, along with daily morning stand-up sessions to communicate and collaborate with international remote developers.",
       "highlights": [
-        "Started the company"
+        "Graduated as a Full Stack Web Developer"
+      ]
+    },
+    {
+      "name": "Ministerio de Defensa del Estado Plurinacional de Bolivia",
+      "position": "Head of Computer System Unit",
+      "url": "https://www.mindef.gob.bo/",
+      "startDate": "2010-03-01",
+      "endDate": "2019-01-01",
+      "summary": "Led a team for 7 years, resolving administrative challenges and overseeing salary management for over 15,000 individuals. Modernized the process of issuing military and pre-military service certificates in the Plurinational State of Bolivia. — Reduced processing time from one month to a few hours. Implemented robust security measures comparable to those used for paper bills or currency. Technologies used: Microsoft SQL Server, Microsoft ASPX with Visual C#, IBM Informix 4GL. Recognized for leading this project, and even receiving a promotion. Military and Pre-Military Service Certificates in the Defense Ministry Plurinational State of Bolivia.",
+      "highlights": [
+        "Recognized for leading this project, and even receiving a promotion"
       ]
     }
   ],
@@ -59,29 +70,14 @@
     {
       "organization": "Organization",
       "position": "Volunteer",
-      "url": "https://portfolio-larry.netlify.app/",
-      "startDate": "2023-01-02",
-      "endDate": "present",
-      "summary": "Development of team projects remotely. Pair programming whit 40+ developers from different parts of the world.",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
       "highlights": [
         "Graduated as a Full Stack Web Developer"
       ]
-    },
-    {
-      "organization": "Ministerio de Defensa del Estado Plurinacional de Bolivia",
-      "position": "Head of Computer System Unit",
-      "url": "https://www.mindef.gob.bo/",
-      "startDate": "2010-01-03",
-      "endDate": "2019-01-01",
-      "summary": "Led a teamfor 7 years, resolving administrative challenges and overseeing salarymanagement for over 15,000 individuals.",
-      "highlights": [
-        "Modernizedtheprocessof issuingmilitaryandpre-militaryservicecertificatesinthePlurinationalStateofBolivia.— Reducedprocessingtimefromonemonthtoafewhours.",
-        "Implementedrobustsecuritymeasurescomparabletothoseusedforpaperbillsorcurrency.",
-        "Technologiesused:MicrosoftSQLServer,MicrosoftASPXwithVisualC#,IBMInformix4GL.",
-        "Recognizedforleadingthisproject,andevenreceivingapromotion.",
-        "MilitaryandPre-MilitaryServiceCertificatesintheDefenseMinistryPlurinationalStateofBolivia."
-      ]
-    }
+    }    
   ],
   "education": [
     {
@@ -104,6 +100,25 @@
         "Ruby on Rails - Web Application Framework",
         "SQL - Structured Query Language"
       ]
+    },
+    {
+      "institution": "Universidad Mayor de San Andrés",
+      "url": "https://www.umsa.bo/",
+      "area": "Electronic Engineering - ungraduated",
+      "studyType": "Bachelor",
+      "startDate": "1998-01-01",
+      "endDate": "2003-02-01",
+      "score": "4.0/4.0",
+      "courses": [
+        "Data Structures",
+        "Algorithms",
+        "Operating Systems",
+        "Computer Networks",
+        "Databases",
+        "Software Engineering",
+        "Computer Architecture",
+        "Programming Languages"
+      ]
     }
   ],
   "awards": [
@@ -116,61 +131,55 @@
   ],
   "certificates": [
     {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }
-  ],
-  "publications": [
-    {
       "name": "HTML / CSS",
-      "publisher": "Microverse",
-      "releaseDate": "2023-03-26",
-      "url": "https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/70557153",
-      "summary": "Students earn this credential after demonstrating industry standard HTML and CSS skills, achieved working on remote pair programming with teams from around the world."
+      "date": "2023-03-26",
+      "issuer": "Microverse",
+      "url": "https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/70557153"
     },
     {
       "name": "JavaScript",
-      "publisher": "Microverse",
-      "releaseDate": "2023-04-30",
-      "url": "https://www.credential.net/812e3e75-c1fe-4abf-8fb5-200b1cb5ccd1#gs.5c2eyi",
-      "summary": "Students earn this credential after demonstrating understanding and mastery of JavaScript. During the course of this module, they build several projects using JavaScript while pair-programming remotely with an international team of software developers."
+      "date": "2023-04-30",
+      "issuer": "Microverse",
+      "url": "https://www.credential.net/812e3e75-c1fe-4abf-8fb5-200b1cb5ccd1#gs.5c2eyi"
     },
     {
       "name": "React / Redux",
-      "publisher": "Microverse",
-      "releaseDate": "2023-06-11",
-      "url": "https://www.credential.net/31d41a5b-977d-4b79-8fb0-fad3024c4d95#gs.5c2hsv",
-      "summary": "Students earn this credential after demonstrating thorough understanding and mastery of React and Redux. Over the course of this module, students build and develop multiple projects using React and Redux, working both independently and while remotely pair-programming."
+      "date": "2023-06-11",
+      "issuer": "Microverse",
+      "url": "https://www.credential.net/31d41a5b-977d-4b79-8fb0-fad3024c4d95#gs.5c2hsv"
     },
     {
       "name": "Ruby / Databases",
-      "publisher": "Microverse",
-      "releaseDate": "2023-07-23",
-      "url": "https://www.credential.net/29ac1349-0822-4744-9f95-9102a8e8a287#gs.5c2ko5",
-      "summary": "Students earn this credential after demonstrating thorough and complete understanding of Ruby and databases by building multiple projects while collaborating and pair programming remotely with developers across the world."
+      "date": "2023-07-23",
+      "issuer": "Microverse",
+      "url": "https://www.credential.net/29ac1349-0822-4744-9f95-9102a8e8a287#gs.5c2ko5"
     },
     {
       "name": "Ruby on Rails",
-      "publisher": "Microverse",
-      "releaseDate": "2023-09-03",
-      "url": "https://www.credential.net/f65fe7c4-0c20-4325-aca8-67996fd5546d#gs.5c2mta",
-      "summary": "Students earn this credential upon demonstrating mastery of Ruby on Rails by building multiple real-world Rails applications alongside software developers from all over the world."
+      "date": "2023-09-03",
+      "issuer": "Microverse",
+      "url": "https://www.credential.net/f65fe7c4-0c20-4325-aca8-67996fd5546d#gs.5c2mta"
     },
     {
       "name": "Full Stack Capstone",
-      "publisher": "Microverse",
-      "releaseDate": "2023-09-24",
-      "url": "https://www.credential.net/c13a2484-bc01-443a-a81a-8355997bdd85#gs.5c2oc8",
-      "summary": "Students earn this credential after demonstrating the ability to collaborate with other students in order to develop a project based on business requirements. This project consists of React & Redux frontend part and Ruby on Rails API as the backend part and is presented to an external evaluator. Over the course of this module module, students use all technical and professional skills gained in the entire Program."
+      "date": "2023-09-24",
+      "issuer": "Microverse",
+      "url": "https://www.credential.net/c13a2484-bc01-443a-a81a-8355997bdd85#gs.5c2oc8"
     },
     {
       "name": "Full Stack Web Development",
-      "publisher": "Microverse",
-      "releaseDate": "2023-10-22",
-      "url": "https://www.credential.net/024aa33b-4f50-4c47-bd46-1c4b5d1eef59#gs.5c2s65",
-      "summary": "Students earn this credential after working through 1500+ hours of remote pair programming, learning to code with teams from around the world."
+      "date": "2023-10-22",
+      "issuer": "Microverse",
+      "url": "https://www.credential.net/024aa33b-4f50-4c47-bd46-1c4b5d1eef59#gs.5c2s65"
+    }
+  ],
+  "publications": [    
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "http://publication.com",
+      "summary": "Description..."
     }
   ],
   "skills": [

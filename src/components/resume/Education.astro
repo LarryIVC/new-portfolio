@@ -1,0 +1,50 @@
+---
+import Section from "@/components/resume/Section.astro"
+import { education } from "@cv"
+---
+
+<Section title="Education">
+  <article class="mt-2 text-xs text-gray-700 grid gap-2">
+    {
+      education.map(
+        ({ institution, url, area, startDate, endDate, highlights }) => {
+          const startMonth = new Date(startDate).toLocaleString("en-US", {
+            month: "long",
+          })
+          const startYear = new Date(startDate).getFullYear()
+          const endMonth =
+            endDate != null
+              ? new Date(endDate).toLocaleString("en-US", { month: "long" })
+              : "Present"
+          const endYear =
+            endDate != null ? new Date(endDate).getFullYear() : "Present"
+          return (
+            <article>
+              <div class="flex justify-between">
+                <h2>
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-sm text-pretty leading-4 text-gray-700 font-bold underline hover:text-red-600"
+                  >{institution}</a>
+                </h2>
+                <p class="text-xs text-gray-600">{startMonth} {startYear} - {endMonth} {endYear}</p>
+                </div>
+                <p class="text-xs text-gray-600 font-bold">{area}</p>
+                <ul class="list-disc list-inside pl-2">
+                  {
+                    highlights.map(
+                      (highlight) => (
+                        <li class="text-xs text-gray-600">{highlight}</li>
+                      )
+                    )
+                  }
+
+            </article>
+          )
+        },
+      )
+    }
+  </article>
+</Section>

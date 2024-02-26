@@ -97,8 +97,8 @@
       "url": "https://www.microverse.org/?grsf=l49pe7",
       "area": "Remote Full Stack Web Development Program, Full-Time",
       "studyType": "Bachelor",
-      "startDate": "2023-10-02",
-      "endDate": "2023-22-10",
+      "startDate": "2023-02-10",
+      "endDate": "2023-10-22",
       "score": "4.0/4.0",
       "courses": [
         "Git - Version Control",
@@ -111,6 +111,11 @@
         "Ruby - Programming Language",
         "Ruby on Rails - Web Application Framework",
         "SQL - Structured Query Language"
+      ],
+      "highlights": [
+        "Mastered algorithms, data structures, and full-stack development during a 1300+ hour intensive program.",
+        "Developing projects with Ruby, Rails, JavaScript, React, and Redux.",
+        "Practiced remote pair programming and mob programming using GitHub and industry-standard Gitflow, along with daily morning stand-up sessions to communicate and collaborate with international remote developers."
       ]
     },
     {
@@ -118,8 +123,8 @@
       "url": "https://www.umsa.bo/",
       "area": "Electronic Engineering - ungraduated",
       "studyType": "Bachelor",
-      "startDate": "1998-01-01",
-      "endDate": "2003-02-01",
+      "startDate": "1998-01-02",
+      "endDate": "2003-08-02",
       "score": "4.0/4.0",
       "courses": [
         "Data Structures",
@@ -130,6 +135,11 @@
         "Software Engineering",
         "Computer Architecture",
         "Programming Languages"
+      ],
+      "highlights": [
+        "Intern as a Teaching Assistant.",
+        "Responsible for the Computer Laboratory.",
+        "Scholar at the Faculty of Medicine, overseeing the UMSALUD Network."
       ]
     }
   ],
@@ -287,9 +297,9 @@
       "name": "Fast Land Racers",
       "startDate": "2023-09-25",
       "endDate": "2023-10-22",
-      "description": "Fast-Lane-Racer is a car booking website that enables users to effortlessly book rides and travel to their desired destinations. Users can reserve a car from the available options by providing the date and city, ensuring a seamless and reliable car booking experience.",
+      "description": "Fast-Lane-Racer is a car booking website that enables users to effortlessly book rides and travel to their desired destinations.",
       "highlights": [
-        "Developed a full-stack web application using Ruby on Rails and React & Redux."
+        "Ruby on Rails and React & Redux."
       ],
       "url": "https://shiny-longma-bba6fb.netlify.app/"
     },
@@ -299,7 +309,7 @@
       "endDate": "2023-10-30",
       "description": "Tesla Clone is a replica of the Tesla website. It is a static website built using Astro, Tailwind..",
       "highlights": [
-        "Developed a static website using Astro, Tailwind, and Netlify."
+        "Astro, JavaScript, and Tailwind."
       ],
       "url": "https://tesla-clon-larry.netlify.app/"
     },
@@ -309,7 +319,7 @@
       "endDate": "2023-09-06",
       "description": "Pennywise: Simplify your finances. Track expenses, set budgets, gain insights, and make informed decisions for financial freedom. Get started today!",
       "highlights": [
-        "Developed a full-stack web application using Ruby on Rails and React & Redux."
+        "Ruby on Rails and React & Redux."
       ],
       "url": "https://rails-lb6q.onrender.com/"
     },
@@ -317,9 +327,9 @@
       "name": "Crypto Coinranking",
       "startDate": "2023-04-29",
       "endDate": "2023-05-10",
-      "description": "It's a powerful web application designed specifically for cryptocurrencies. Leveraging the capabilities of React and Redux, it offers comprehensive information about various digital coins.",
+      "description": "It's a powerful web application designed specifically for cryptocurrencies, it offers comprehensive information about various digital coins.",
       "highlights": [
-        "Developed web application using React & Redux."
+        "HTML, CSS, JavaScript, and React & Redux."
       ],
       "url": "https://react-coin-coinranking.netlify.app/"
     },
@@ -329,7 +339,7 @@
       "endDate": "2023-04-15",
       "description": "This project showcases my proficiency in JavaScript, Webpack, and Jest, along with my skills in working with JSON for reading and writing APIs.",
       "highlights": [
-        "Developed a static website using JavaScript, Webpack, and Jest."
+        "HTML, CSS, JavaScript, Webpack, and Jest."
       ],
       "url": "https://js-capstoneproject.netlify.app/"
     },
@@ -337,9 +347,9 @@
       "name": "Catholic Music Concert",
       "startDate": "2023-03-24",
       "endDate": "2023-03-30",
-      "description": "A landing page specifically created to promote a Catholic concert. The design is intuitive and user-friendly, enabling visitors to access essential concert details such as date, time, venue, and artists quickly and easily.",
+      "description": "A landing page specifically created to promote a Catholic concert.",
       "highlights": [
-        "Developed a static website using HTML, CSS, and JavaScript."
+        "HTML, CSS, and JavaScript."
       ],
       "url": "https://larryivc.github.io/EventPage/"
     }

@@ -49,7 +49,11 @@
       "url": "https://portfolio-larry.netlify.app/",
       "startDate": "2023-02-01",
       "endDate": null,
-      "summary": "Remote Full Stack Web Development Program, Full-Time Mastered algorithms, data structures, and full-stack development during a 1300+ hour intensive program. Developing projects with Ruby, Rails, JavaScript, React, and Redux. Practiced remote pair programming and mob programming using GitHub and industry-standard Gitflow, along with daily morning stand-up sessions to communicate and collaborate with international remote developers.",
+      "summary": "Working independently on personal projects, I successfully graduated as a Full Stack Developer.",
+      "features": [
+        "Development of team projects remotely.",
+        "Pair programming with 40+ developers from different parts of the world."
+      ],
       "highlights": [
         "Graduated as a Full Stack Web Developer"
       ]
@@ -59,8 +63,16 @@
       "position": "Head of Computer System Unit",
       "url": "https://www.mindef.gob.bo/",
       "startDate": "2010-03-01",
-      "endDate": "2019-01-01",
-      "summary": "Led a team for 7 years, resolving administrative challenges and overseeing salary management for over 15,000 individuals. Modernized the process of issuing military and pre-military service certificates in the Plurinational State of Bolivia. — Reduced processing time from one month to a few hours. Implemented robust security measures comparable to those used for paper bills or currency. Technologies used: Microsoft SQL Server, Microsoft ASPX with Visual C#, IBM Informix 4GL. Recognized for leading this project, and even receiving a promotion. Military and Pre-Military Service Certificates in the Defense Ministry Plurinational State of Bolivia.",
+      "endDate": "2019-01-02",
+      "summary": "I began my career as a computer technician, and through my dedication and hard work, I was promoted to head of development. Later, I advanced to the position of Head of Unit, where I successfully contributed for five years.",
+      "features": [
+        "Led a team for 7 years, resolving administrative challenges and overseeing salary management for over 15,000 individuals.",
+        "Modernized the process of issuing military and pre-military service certificates in the Plurinational State of Bolivia. Reduced processing time from one month to a few hours.",
+        "Implemented robust security measures comparable to those used for paper bills or currency.",
+        "Technologies used: Microsoft SQL Server, Microsoft ASPX with Visual C#, IBM Informix 4GL.",
+        "Recognized for leading this project, and even receiving a promotion.",
+        "Military and Pre-Military Service Certificates in the Defense Ministry Plurinational State of Bolivia."
+      ],
       "highlights": [
         "Recognized for leading this project, and even receiving a promotion"
       ]
@@ -77,7 +89,7 @@
       "highlights": [
         "Graduated as a Full Stack Web Developer"
       ]
-    }    
+    }
   ],
   "education": [
     {
@@ -173,7 +185,7 @@
       "url": "https://www.credential.net/024aa33b-4f50-4c47-bd46-1c4b5d1eef59#gs.5c2s65"
     }
   ],
-  "publications": [    
+  "publications": [
     {
       "name": "Publication",
       "publisher": "Company",

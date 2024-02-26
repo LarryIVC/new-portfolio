@@ -1,0 +1,45 @@
+---
+import Section from "@/components/resume/Section.astro"
+import { projects } from "@cv"
+---
+
+<Section title="Projects">
+  <article class="mt-2 text-xs text-gray-700 grid gap-2">
+    {
+      projects.map(({ name, description, url, highlights }) => {
+        return (
+          <div class="rounded border p-2 flex flex-col justify-between h-full">
+            <h3 class="font-bold">
+              <a
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="underline hover:text-red-600 "
+              >
+                {name}↗
+              </a>
+            </h3>
+            <p class="text-balance">{description}</p>
+            {highlights &&
+              highlights.map((highlight) => {
+                return (
+                 
+                  <span class="font-bold">Build with: </span>
+                  <div>
+                    <span class="bg-gray-500 text-white rounded px-1 font-semibold">
+                      {highlight}
+                    </span>
+                    </div>
+                )
+              })}
+          </div>
+        )
+      })
+    }
+  </article>
+</Section>
+<style>
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+</style>

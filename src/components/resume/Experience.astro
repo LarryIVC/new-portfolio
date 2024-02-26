@@ -1,21 +1,50 @@
 ---
 import Section from "@/components/resume/Section.astro"
-import { skills } from "@cv"
+import { work } from "@cv"
 ---
 
 <Section title="Experience">
-  <!-- <p class="text-pretty pt-2 text-gray-700 text-xs"></p> -->
   <article class="mt-2">
     {
-      skills.map(({ name, keywords }) => {
-        const labelSkills = keywords.filter(Boolean).join(", ")
-        return (
-          <p class="text-xs text-pretty leading-4 text-gray-700">
-            <span class="font-bold">{name}: </span>
-            <span>{labelSkills}.</span>
-          </p>
-        )
-      })
+      work.map(
+        ({ name, position, url, startDate, endDate, summary, features }) => {
+          const startYear = new Date(startDate).getFullYear()
+          const endYear =
+            endDate != null ? new Date(endDate).getFullYear() : "Present"
+          return (
+            <>
+              <div class="flex justify-between items-center">
+                <h2>
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-sm text-pretty leading-4 text-gray-700 font-bold underline hover:text-red-600"
+                  >
+                    {name}
+                  </a>
+                </h2>
+                <p class="text-xs text-pretty leading-4 text-gray-700">
+                  {startYear} - {endYear}
+                </p>
+              </div>
+              <p class="text-xs text-gray-700 leading-4 font-semibold">
+                {position}
+              </p>
+              <article class="pb-2">
+                <p class="text-xs text-gray-700">{summary}</p>
+                {
+                  <ul class="list-disc list-inside text-xs text-gray-700 pl-2">
+                    {features.map((feature) => (
+                      <li>{feature}</li>
+                    ))}
+                  </ul>
+                }
+              </article>
+            </>
+          )
+        },
+      )
     }
   </article>
 </Section>

@@ -143,10 +143,10 @@ Help me with your criticisms and your suggestions, you will be blessed for such 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank [Microverse](https://www.microverse.org/?grsf=l49pe7) for this template that I based it on.
-https://github.com/BartoszJarocki/cv
-https://www.youtube.com/watch?v=Zwh92LTB-Bk&t=3207s&ab_channel=midulive
-https://jsonresume.org/
+- I would like to thank [Microverse](https://www.microverse.org/?grsf=l49pe7) for this template that I based it on.
+- I would like thank to [Bartoz Jarocki](https://github.com/BartoszJarocki/cv)
+- I would like thank to [@Midudev](https://midu.dev/) for the tutorial [resume](https://www.youtube.com/watch?v=Zwh92LTB-Bk&t=3207s&ab_channel=midulive), and all other tutorials, he is like my master.
+- I would like thank to [JSON Resume](https://jsonresume.org/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

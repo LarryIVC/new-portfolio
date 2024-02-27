@@ -7,12 +7,12 @@ const { name, label, profiles, email } = basics
 
 <Section>
   <div class="flex justify-between items-end">
-    <h1 class="text-2xl font-bold text-primary uppercase">{name}</h1>
-    <p class="uppercase text-base text-primary ">{label}</p>
+    <h1 class="text-xl font-bold text-primary uppercase">{name}</h1>
+    <p class="uppercase text-base text-primary">{label}</p>
   </div>
   <div>
-    <ul class="flex gap-1 text-blue-600 text-xs justify-end">
-      <li>
+    <nav class="flex gap-1 text-blue-600 text-xs justify-end">
+      <span class="print:hidden">
         <a
           href=`mailto:${email}`
           title=`Send an email to ${name}`
@@ -22,13 +22,24 @@ const { name, label, profiles, email } = basics
         >
           Email
         </a>
-      </li>
+      </span>
+      <span class="print:block hidden">
+        <a
+          href=`mailto:${email}`
+          title=`Send an email to ${name}`
+          target="_blank"
+          rel="noopener noreferrer"
+          class="hover:bg-primary hover:text-white py-[2px] px-1 hover:rounded"
+        >
+          {email}
+        </a>
+      </span>
       <span>|</span>
       {
         profiles.map(({ url, username, network }) => {
           return (
             <>
-              <li>
+              <span>
                 <a
                   href={url}
                   title={`Visit ${network} profile of ${username}`}
@@ -38,15 +49,15 @@ const { name, label, profiles, email } = basics
                 >
                   {network}
                 </a>
-              </li>
+              </span>
               <span>|</span>
             </>
           )
         })
       }
-      <li>
+      <span>
         <a
-          href="/"
+          href="https://portfolio-larry.netlify.app/"
           title=`${name} portfolio`
           target="_blank"
           rel="noopener noreferrer"
@@ -54,7 +65,7 @@ const { name, label, profiles, email } = basics
         >
           Portfolio
         </a>
-      </li>
-    </ul>
+      </span>
+    </nav>
   </div>
 </Section>

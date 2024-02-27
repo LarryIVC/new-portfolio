@@ -52,7 +52,7 @@
       "summary": "Working independently on personal projects, I successfully graduated as a Full Stack Developer.",
       "features": [
         "Development of team projects remotely.",
-        "Pair programming with 40+ developers from different parts of the world."
+        "Pair programming with +40 developers from different parts of the world."
       ],
       "highlights": [
         "Graduated as a Full Stack Web Developer"
@@ -297,9 +297,11 @@
       "name": "Fast Land Racers",
       "startDate": "2023-09-25",
       "endDate": "2023-10-22",
-      "description": "Fast-Lane-Racer is a car booking website that enables users to effortlessly book rides and travel to their desired destinations.",
+      "description": "Is a car booking website that enables users to effortlessly book rides and travel to their desired destinations.",
       "highlights": [
-        "Ruby on Rails and React & Redux."
+        "Ruby on Rails",
+        "React",
+        "Redux"
       ],
       "url": "https://shiny-longma-bba6fb.netlify.app/"
     },
@@ -307,9 +309,11 @@
       "name": "Tesla Clone",
       "startDate": "2023-10-24",
       "endDate": "2023-10-30",
-      "description": "Tesla Clone is a replica of the Tesla website. It is a static website built using Astro, Tailwind..",
+      "description": "Tesla Clone is a replica of the Tesla website. It is a static website built using Astro, Tailwind.",
       "highlights": [
-        "Astro, JavaScript, and Tailwind."
+        "Astro",
+        "JavaScript",
+        "Tailwind"
       ],
       "url": "https://tesla-clon-larry.netlify.app/"
     },
@@ -317,9 +321,11 @@
       "name": "Pennywise",
       "startDate": "2023-08-30",
       "endDate": "2023-09-06",
-      "description": "Pennywise: Simplify your finances. Track expenses, set budgets, gain insights, and make informed decisions for financial freedom. Get started today!",
+      "description": "It simplify your finances. Track expenses, set budgets, gain insights, and make informed decisions for financial freedom.",
       "highlights": [
-        "Ruby on Rails and React & Redux."
+        "Ruby on Rails",
+        "React",
+        "Redux"
       ],
       "url": "https://rails-lb6q.onrender.com/"
     },
@@ -327,9 +333,13 @@
       "name": "Crypto Coinranking",
       "startDate": "2023-04-29",
       "endDate": "2023-05-10",
-      "description": "It's a powerful web application designed specifically for cryptocurrencies, it offers comprehensive information about various digital coins.",
+      "description": "It's a powerful web application designed specifically for cryptocurrencies.",
       "highlights": [
-        "HTML, CSS, JavaScript, and React & Redux."
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Redux"
       ],
       "url": "https://react-coin-coinranking.netlify.app/"
     },
@@ -337,9 +347,13 @@
       "name": "The Simpsons Fans Club",
       "startDate": "2023-04-10",
       "endDate": "2023-04-15",
-      "description": "This project showcases my proficiency in JavaScript, Webpack, and Jest, along with my skills in working with JSON for reading and writing APIs.",
+      "description": "Show the episodes of the popular series The Simpson.",
       "highlights": [
-        "HTML, CSS, JavaScript, Webpack, and Jest."
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Webpack",
+        "Jest"
       ],
       "url": "https://js-capstoneproject.netlify.app/"
     },
@@ -349,7 +363,9 @@
       "endDate": "2023-03-30",
       "description": "A landing page specifically created to promote a Catholic concert.",
       "highlights": [
-        "HTML, CSS, and JavaScript."
+        "HTML",
+        "CSS",
+        "JavaScript"
       ],
       "url": "https://larryivc.github.io/EventPage/"
     }

@@ -6,12 +6,12 @@ const { name, label, profiles, email } = basics
 ---
 
 <Section>
-  <div class="flex justify-between items-end">
+  <div class="flex flex-col sm:flex-row sm:justify-between justify-center sm:items-end items-center">
     <h1 class="text-xl font-bold text-primary uppercase">{name}</h1>
     <p class="uppercase text-base text-primary">{label}</p>
   </div>
   <div>
-    <nav class="flex gap-1 text-blue-600 text-xs justify-end">
+    <nav class="flex flex-wrap gap-1 text-blue-600 text-xs justify-start sm:justify-end ">
       <span class="print:hidden">
         <a
           href=`mailto:${email}`

@@ -1,0 +1,12 @@
+{
+    "name": "Pennywise",
+    "startDate": "2023-08-30",
+    "endDate": "2023-09-06",
+    "description": "It simplify your finances. Track expenses, set budgets, gain insights, and make informed decisions for financial freedom.",
+    "highlights": [
+      "Ruby on Rails",
+      "React",
+      "Redux"
+    ],
+    "url": "https://rails-lb6q.onrender.com/"
+  }
